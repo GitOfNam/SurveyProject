@@ -1,0 +1,365 @@
+﻿<script id="SingleTextboxTemplate" type="text/x-jQuery-tmpl">
+    {{each(a,art) data}}
+    <div class="SurveyTemp" id="${ID}">
+        <div class="ShowItem">
+            
+        </div>
+        <div class="EditItem">
+            <div class="divCtrlName">
+                <span class="CtrlName">Sigle Textbox</span>
+            </div>
+            <div class="Control-Servey">
+                <div class="v_tab">
+                    <div class="animate-bottom">
+                        <input type="button" class="v_tablinks active" onclick="openMenu(event, 'Option1_${ID}')" value="Chỉnh sửa" />
+                        <input type="button" class="v_tablinks" onclick="openMenu(event, 'Option2_${ID}')" value="Thiết lập" />
+                        <input type="button" class="v_tablinks" id="btnCancle_${ID}" value="Xóa" />
+                    </div>
+                </div>
+                <div id="Option1_${ID}" class="v_tabcontent animate-bottom">
+                    <div class='ItemTextTitle Text'>
+                        <!--<input id='txtTitle_${ID}' class="form-control EditNow"  value="Câu ${Index}" />-->
+                        <span id='spnTitle_${ID}' style="border: none; font-weight: 600; font-family: initial;">Câu ${Index}</span>
+                    </div>
+                    <div class='ItemInputAnswer Input'>
+                        <div class='ItemControl'>
+                            <div class='msgError'>
+                                <span id='messerror_${ID}'></span>
+                            </div>
+                            <input id='txtTitle_${ID}' class="form-control EditNow" placeholder="Nhập tiêu đề" />
+                            <!--<span id='spnAnswer_${ID}'></span>-->
+                        </div>
+                    </div>
+                    <div class='ItemButton'>
+                        <input type="button" id='btnSave_${ID}' class="btn btnSave" value="Lưu" style="width: auto;" />
+                        <input type="button" id='btnCancleEdit_${ID}' class="btn btnCancle" value="Hủy" style="width: auto;" />
+                    </div>
+                </div>
+
+                <div id="Option2_${ID}" class="v_tabcontent animate-bottom" style="display: none;min-height: 150px;">
+                    <div class="ConfigItemSurvey" id="Config_${ID}">
+                        <div class="ItemConfig">
+                            {{if Required == false}}<input id="ckRequired_${ID}" type="checkbox" /> <span>Bắt buộc nhập câu trả lời</span>
+                            {{else}} <input id="ckRequired_${ID}" checked type="checkbox" /> <span>Bắt buộc nhập câu trả lời</span>
+                            {{/if}}
+                        </div>
+                        <div class="ItemConfig">
+                            {{if DisableDoAgain == false}}<input id="ckDisableDoAgain_${ID}" type="checkbox" /> <span>Không cho phép đánh giá lại</span>
+                            {{else}} <input id="ckDisableDoAgain_${ID}" checked type="checkbox" /> <span>Không cho phép đánh giá lại</span>
+                            {{/if}}
+                        </div>
+                        <div class="ItemConfig">
+                            {{if Options.AllowMultipleLine == false}}<input id="ckAllowMultipleLine_${ID}" type="checkbox" /> <span>Cho phép nhập nhiều dòng</span>
+                            {{else}} <input id="ckAllowMultipleLine_${ID}" checked type="checkbox" /> <span>Cho phép nhập nhiều dòng</span>
+                            {{/if}}
+
+                        </div>
+                        <div class="ItemConfig">
+                            {{if Options.ValidateAnswer == null}}  <input id="ckAcceptResultFomart_${ID}" onclick="ValidateAnswerClick(event,'${ID}')" type="checkbox" /> <span>Định dạng câu trả lời hợp lệ</span>
+                            {{else}}   <input id="ckAcceptResultFomart_${ID}" onclick="ValidateAnswerClick(event,'${ID}')" checked type="checkbox" /> <span>Định dạng câu trả lời hợp lệ</span>
+                            {{/if}}
+                            <div id="div_Options_${ID}" style="display:none">
+                                <div class="div_Options_Content">
+                                    <label class="Label_Options"> Câu trả lời nên là: </label>
+                                    <select id="ValidateAnswer_value_${ID}">
+                                        <option value="text_length">Chuỗi nguyên bản</option>
+                                        <option value="number_length">Số nguyên</option>
+                                    </select>
+                                    Giữa
+                                    <input type="number" min="0" style="width: 50px" value="0" id="txtMinNum_${ID}">
+                                    và
+                                    <input type="number" min="0" style="width: 50px" value="100" id="txtMaxNum_${ID}">
+                                </div>
+                                <div class="div_Warning_content">
+                                    <div>
+                                        <label class="Label_Options">Khi câu trả lời không hợp lệ, hiện thông báo: </label>
+                                    </div>
+                                    <div>
+                                        <textarea id="txtWarning_${ID}" class="form-control" style="height: 65px;" cols="30" rows="10">Bạn nhập giá trị không hợp lệ</textarea>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</script>
+<script id="MultipleTextboxesTemplate" type="text/x-jQuery-tmpl">
+    {{each(a,art) data}}
+    <div class="SurveyTemp" id="${ID}">
+        <div class="ShowItem">
+
+        </div>
+        <div class="EditItem">
+            <div class="divCtrlName">
+                <span class="CtrlName">Multiple Textboxes</span>
+            </div>
+            <div class="Control-Servey">
+                <div class="v_tab">
+                    <div class="animate-bottom">
+                        <input type="button" class="v_tablinks active" onclick="openMenu(event, 'Option1_${ID}')" value="Chỉnh sửa" />
+                        <input type="button" class="v_tablinks" onclick="openMenu(event, 'Option2_${ID}')" value="Thiết lập" />
+                        <input type="button" class="v_tablinks" id="btnCancle_${ID}" value="Xóa" />
+                    </div>
+                </div>
+                <div id="Option1_${ID}" class="v_tabcontent animate-bottom">
+                    <div class='ItemTextTitle Text'>
+                        <!--<input id='txtTitle_${ID}' class="form-control EditNow"  value="Câu ${Index}" />-->
+                        <span id='spnTitle_${ID}' style="border: none; font-weight: 600; font-family: initial;">Câu ${Index}</span>
+                    </div>
+                    <div class='ItemInputAnswer Input'>
+                        <div class='ItemControl'>
+                            <div class='msgError'>
+                                <span id='messerror_${ID}'></span>
+                            </div>
+                            <input id='txtTitle_${ID}' class="form-control EditNow" placeholder="Nhập tiêu đề" />
+                        </div>
+                        <br />
+                        <div class="QuestionSetting ">
+                            <div class="q-Editor MultipleDateTimes isTemp">
+                                <div class="q-Content answerSettingDateTime">
+                                    <div class="ListItemRow">
+                                        {{each(b,brt) Value.MultipleTextboxes}}
+                                        <div class="ItemRow MultipleDateTimes">
+                                            <div class="ItemText"> <span class="q-HeaderRow"> Tiêu đề ${brt.Index} </span> </div>
+                                            <div class="ItemInput"> <input type="text" id='txtTitle_${brt.ID}' name="itemTitle" placeholder=" Nhập tiêu đề"> </div>
+                                            <div class="Buttons ItemAction">
+                                                <input class="btn btn-AddItemRow addItemRow form-control" type="button" title="Thêm" data-type="addItemRow" onclick="ItemRow_onClickAddItemRow(event,'${brt.ID}','${brt.Index}')" />
+                                                <input class="btn btn-SubItemRow addItemRow form-control" type="button" title=" Xóa" data-type="subItemRow" onclick="ItemRow_onClickSubItemRow(event,'${brt.ID}','${brt.Index}')" />
+                                            </div>
+                                        </div>
+                                        <div class="NewItemRow_${brt.ID}_new"></div>
+                                        {{/each}}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='ItemButton'>
+                        <input type="button" id='btnSave_${ID}' class="btn btnSave" value="Lưu" style="width: auto;" />
+                        <input type="button" id='btnCancleEdit_${ID}' class="btn btnCancle" value="Hủy" style="width: auto;" />
+                    </div>
+                </div>
+
+                <div id="Option2_${ID}" class="v_tabcontent animate-bottom" style="display: none;min-height: 150px;">
+                    <div class="ConfigItemSurvey" id="Config_${ID}">
+                        <div class="ItemConfig">
+                            {{if Required == false}}<input id="ckRequired_${ID}" type="checkbox" /> <span>Bắt buộc nhập câu trả lời</span>
+                            {{else}} <input id="ckRequired_${ID}" checked type="checkbox" /> <span>Bắt buộc nhập câu trả lời</span>
+                            {{/if}}
+                        </div>
+                        <div class="ItemConfig">
+                            {{if DisableDoAgain == false}}<input id="ckDisableDoAgain_${ID}" type="checkbox" /> <span>Không cho phép đánh giá lại</span>
+                            {{else}} <input id="ckDisableDoAgain_${ID}" checked type="checkbox" /> <span>Không cho phép đánh giá lại</span>
+                            {{/if}}
+                        </div>
+                        <div class="ItemConfig">
+                            {{if Options.AllowMultipleLine == false}}<input id="ckAllowMultipleLine_${ID}" type="checkbox" /> <span>Cho phép nhập nhiều dòng</span>
+                            {{else}} <input id="ckAllowMultipleLine_${ID}" checked type="checkbox" /> <span>Cho phép nhập nhiều dòng</span>
+                            {{/if}}
+
+                        </div>
+                        <div class="ItemConfig">
+                            {{if Options.ValidateAnswer == null}}  <input id="ckAcceptResultFomart_${ID}" onclick="ValidateAnswerClick(event,'${ID}')" type="checkbox" /> <span>Định dạng câu trả lời hợp lệ</span>
+                            {{else}}   <input id="ckAcceptResultFomart_${ID}" onclick="ValidateAnswerClick(event,'${ID}')" checked type="checkbox" /> <span>Định dạng câu trả lời hợp lệ</span>
+                            {{/if}}
+                            <div id="div_Options_${ID}" style="display:none">
+                                <div class="div_Options_Content">
+                                    <label class="Label_Options"> Câu trả lời nên là: </label>
+                                    <select id="ValidateAnswer_value_${ID}">
+                                        <option value="text_length">Chuỗi nguyên bản</option>
+                                        <option value="number_length">Số nguyên</option>
+                                    </select>
+                                    Giữa
+                                    <input type="number" min="0" style="width: 50px" value="0" id="txtMinNum_${ID}">
+                                    và
+                                    <input type="number" min="0" style="width: 50px" value="100" id="txtMaxNum_${ID}">
+                                </div>
+                                <div class="div_Warning_content">
+                                    <div>
+                                        <label class="Label_Options">Khi câu trả lời không hợp lệ, hiện thông báo: </label>
+                                    </div>
+                                    <div>
+                                        <textarea id="txtWarning_${ID}" class="form-control" style="height: 65px;" cols="30" rows="10">Bạn nhập giá trị không hợp lệ</textarea>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</script>
+<script id="ItemRowQuestion" type="text/x-jQuery-tmpl">
+    {{each(a,art) data}}
+    <div class="ItemRow MultipleDateTimes">
+        <div class="ItemText"> <span class="q-HeaderRow"> Tiêu đề ${Index} </span> </div>
+        <div class="ItemInput"> <input type="text" id='txtTitle_${ID}' name="itemTitle" placeholder=" Nhập tiêu đề"> </div>
+        <div class="Buttons ItemAction">
+            <input class="btn btn-AddItemRow addItemRow form-control" type="button" title="Thêm" data-type="addItemRow" onclick="ItemRow_onClickAddItemRow(event,'${ID}', '${Index}')" />
+               
+            <input class="btn btn-SubItemRow addItemRow form-control" type="button" title=" Xóa" data-type="subItemRow" onclick="ItemRow_onClickSubItemRow(event,'${ID}','${Index}')" />
+        </div>
+    </div>
+    <div class="NewItemRow_${ID}_new"></div>
+    {{/each}}
+</script>
+<script id="PageTemplate" type="text/x-jQuery-tmpl">
+    {{each(a,art) data}}
+    <div class="CssPage Page_${Index}">
+        <div class="PageNumber">
+            <span class="PageName">${Title}</span>
+        </div>
+        <div class="ContentPage" id="Content_Page_${Index}">
+
+        </div>
+        <div class="NewQuestion">
+            <input type="button" class="btn btnAdd" onclick="btnAdd(event,'Content_Page_${Index}',${Index},1)" value="Thêm mới">
+        </div>
+    </div>
+    <div class="PlaceNewPage">
+
+    </div>
+    {{/each}}
+</script>
+<script id="PageReportTemplate" type="text/x-jQuery-tmpl">
+    {{each(a,art) data}}
+    <div class="CssPage Page_${Index}">
+        <div class="PageNumber">
+            <span class="PageName">Trang ${Index}</span>
+        </div>
+        <div class="Report_ContentPage" id="Report_Content_Page_${Index}">
+           
+        </div>
+    </div>
+    {{/each}}
+</script>
+
+<script id="AnswerReport_SingleTextbox_Template" type="text/x-jQuery-tmpl">
+    {{each(a,art) data}}
+    <div class="AnswerReport_Content">
+        <div class="ShowContentSurveyReport">
+            <div class='SurveyReportTitle'>
+                <span>${Title}</span>
+            </div>
+            <div class='ButtonsSurveyReport'>
+                <input type="button" id="btnExport_${ID}" value="Xuất" runat="server" />
+                <input type="button" id="btnPrint_${ID}" value="In" runat="server" />
+            </div>
+        </div>
+        <div class="ContentSurveyReport">
+            <div class="Answer_Content">
+                ${Value}
+            </div>
+            <div class="Answer_Statistical">
+                <span class="Answer_CountTitle">Đã trả lời: <span class="Answer_CountNumber_${ID}" id="Answer_Count_Rep">0</span></span>
+                <span class="Answer_CountTitle">Đã bỏ qua: <span class="Answer_CountNumber_${ID}" id="Answer_Count_UnRep">0</span></span>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</script>
+
+<script id="Question_SingleTextbox_Template" type="text/x-jQuery-tmpl">
+    {{each(a,art) data}}
+    <div class="ShowContent question-row" onmouseover="this" onmouseout="this">
+        <div class="ActivedQuestion">
+            <div class="HiddenButtons">
+                <input type="button" class="btn btn-Edit" onclick="ShowEdit(event,'${ID}')" value="Sửa">
+            </div>
+            <div class="question-rowContent">
+                <div class="QuestionTitle">
+                    <span class="type-icon SingleTextbox">${Index}</span>
+                    <label class="q-Number-Title">${Index}. </label>
+                    <label class="q-Title">${Title}</label>
+                    {{if Required == true}}<label> (*)</label>{{/if}}
+                </div>
+            <div class="q-Preview SingleLineTextBox">
+                <div class="warning hide"></div>
+                <div class="q-Content">
+                    {{if Options.AllowMultipleLine == false}} <input type="text" id="txtValue_${ID}" class="q-SingleTextBox form-control q-Num-${ID}" placeholder=" Nhập câu trả lời">
+                    {{else}} <textarea class="q-SingleTextBox form-control q-Num-${ID}" placeholder=" Nhập câu trả lời" style="height: 65px;" id="txtValue_${ID}" cols="30" rows="10"></textarea>
+                    {{/if}}
+                    
+                </div>
+                </div>
+             </div>
+        </div> 
+    </div>
+    {{/each}}
+</script>
+<script id="Question_MultipleTextboxes_Template" type="text/x-jQuery-tmpl">
+    {{each(a,art) data}}
+    <div class="ShowContent question-row" onmouseover="this" onmouseout="this">
+        <div class="ActivedQuestion">
+            <div class="HiddenButtons">
+                <input type="button" class="btn btn-Edit" onclick="ShowEdit(event,'${ID}')" value="Sửa">
+            </div>
+            <div class="question-rowContent">
+                <div class="QuestionTitle">
+                    <span class="type-icon MultipleTextboxes">${Index}</span>
+                    <label class="q-Number-Title">${Index}. </label>
+                    <label class="q-Title">${Title}</label>
+                    {{if Required == true}}<label> (*)</label>{{/if}}
+                </div>
+                <!--<div class="q-Preview MultipleTextboxes">
+                    <div class="warning hide"></div>
+                    <div class="q-Content">
+                        {{if Options.AllowMultipleLine == false}} <input type="text" id="txtValue_${ID}" class="q-SingleTextBox form-control q-Num-${ID}" placeholder=" Nhập câu trả lời">
+                        {{else}} <textarea class="q-SingleTextBox form-control q-Num-${ID}" placeholder=" Nhập câu trả lời" style="height: 65px;" id="txtValue_${ID}" cols="30" rows="10"></textarea>
+                        {{/if}}
+
+                    </div>
+                </div>-->
+            </div>
+            <div class="QuestionSetting_${ID}">
+                <div class="q-Editor MultipleTextboxes isTemp">
+                    <div class="q-Content answerSettingDateTime">
+                        <div class="ListItemRow">
+                            {{each(b,brt) Value.MultipleTextboxes}}
+                            <div class="ItemRow MultipleTextboxes">
+                                <div class="ItemText"> <label class="q-HeaderRow" style="color: black" id="lbTitle_${brt.ID}">${brt.Title} </label> </div>
+                                {{if Options.AllowMultipleLine == false}} <input type="text" id="txtValue_${brt.ID}" class="q-SingleTextBox form-control q-Num-${brt.ID}" placeholder=" Nhập câu trả lời">
+                                {{else}} <textarea class="q-SingleTextBox form-control q-Num-${brt.ID}" placeholder=" Nhập câu trả lời" style="height: 65px;" id="txtValue_${brt.ID}" cols="30" rows="10"></textarea>
+                                {{/if}}
+                                <!--<div class="ItemInput"> <input type="text" id='txtValue_${brt.ID}' name="itemTitle" placeholder="Nhập câu trả lời"> </div>-->
+                            </div>
+                            {{/each}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</script>
+<script id="Question_MultipleTextboxes_TemplateEdit" type="text/x-jQuery-tmpl">
+    {{each(a,art) data}}
+    <div class="q-Editor MultipleTextboxes isTemp">
+        <div class="q-Content answerSettingDateTime">
+            <div class="ListItemRow">
+                {{each(b,brt) Value.MultipleTextboxes}}
+                <div class="ItemRow MultipleTextboxes">
+                    <div class="ItemText"> <label class="q-HeaderRow" style="color: black" id="lbTitle_${brt.ID}">${brt.Title} </label> </div>
+                    {{if Options.AllowMultipleLine == false}} <input type="text" id="txtValue_${brt.ID}" class="q-SingleTextBox form-control q-Num-${brt.ID}" placeholder=" Nhập câu trả lời">
+                    {{else}} <textarea class="q-SingleTextBox form-control q-Num-${brt.ID}" placeholder=" Nhập câu trả lời" style="height: 65px;" id="txtValue_${brt.ID}" cols="30" rows="10"></textarea>
+                    {{/if}}
+                    <!--<div class="ItemInput"> <input type="text" id='txtValue_${brt.ID}' name="itemTitle" placeholder="Nhập câu trả lời"> </div>-->
+                </div>
+                {{/each}}
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</script>

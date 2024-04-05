@@ -1,0 +1,26 @@
+﻿<%@ Page Language="C#" MasterPageFile="~/Pages/MasterPages/UserMasterPages.Master" AutoEventWireup="true" CodeBehind="MenuConfig.aspx.cs" Inherits="TT.WebApp_MyStore.Pages.MenuSetting.MenuConfig" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="Content" runat="server">
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+   <div class='body-Content'>
+        <div class='MenuList'>
+          <div class='MenuListText'>
+            <h2 id='lbMenuList'>Danh sách người dùng</h2>
+          </div>
+          <div class='MenuList-Grid'>
+            <div id='GridMenuList'></div>
+          </div>
+      </div>
+    </div>
+        <script src="../../Scripts/ScriptMenu/MenuConfigJS.js"></script>
+</body>
+</html>
+</asp:Content>

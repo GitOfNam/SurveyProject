@@ -1,0 +1,49 @@
+﻿<script id="FilterTemp" type="text/x-jQuery-tmpl">
+    {{each(a,art) data}}
+    <div class="filter-Container">
+        <div class="filter-Button">
+            <div class='Buttons' style='display:block;'>
+                <input type="button" class="btnSearch" value="Tìm kiếm" onclick="btnSearch('${NumPage}')" runat="server" />
+            </div>
+        </div>
+        <div class="filter-Content">
+            <div class='ItemRow col-md-12'>
+                <div class='ItemText Text'>
+                    <span id='lbTitle' runat="server">Tên khảo sát </span>
+                </div>
+                <div class='ItemInput Input'>
+                    <div class='ItemControl'>
+                        <input id='txtTitleSearch' class="form-control" style="width: auto;" />
+                    </div>
+                </div>
+                <div class='ItemText Text'>
+                    <span id='lbSurveyCategorySearch' runat="server">Loại </span>
+                </div>
+                <div class='ItemInput Input'>
+                    <div class='ItemControl'>
+                        <input id='txtSurveyCategorySearch' class="form-control" style="width: 210px;" />
+                    </div>
+                </div>
+            </div>
+            <div class='ItemRow col-md-12'>
+                <div class='ItemText Text'>
+                    <span id='lbFromDate' runat="server">Từ </span>
+                </div>
+                <div class='ItemInput Input'>
+                    <div class='ItemControl'>
+                        <input id='txtFromDateSearch' class="form-control" style="width: auto;" />
+                    </div>
+                </div>
+                <div class='ItemText Text'>
+                    <span id='lbToDate' runat="server">Đến </span>
+                </div>
+                <div class='ItemInput Input'>
+                    <div class='ItemControl'>
+                        <input id='txtToDateSearch' class="form-control" style="width: auto;" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</script>

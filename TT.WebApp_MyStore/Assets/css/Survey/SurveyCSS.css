@@ -1,0 +1,3987 @@
+﻿.stepwizard-step p {
+    margin-top: 0px;
+    color: #666;
+}
+
+.stepwizard-row {
+    display: table-row;
+}
+
+.stepwizard {
+    display: table;
+    width: 100%;
+    position: relative;
+}
+.accessDenied {
+    color: red;
+    text-align: center;
+    font-family: initial;
+}
+.stepwizard-step button[disabled] {
+    /*opacity: 1 !important;
+      filter: alpha(opacity=100) !important;*/
+}
+
+.stepwizard .btn.disabled, .stepwizard .btn[disabled], .stepwizard fieldset[disabled] .btn {
+    opacity: 1 !important;
+    color: #bbb;
+}
+
+.stepwizard-row:before {
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    z-index: 0;
+}
+
+.stepwizard-step {
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+}
+
+.bor {
+    border-collapse: collapse;
+    border: 1px solid #f4f4f4;
+    padding: 5px
+}
+
+div.container {
+    width: 100%;
+    margin: auto;
+}
+/* định dạng thẻ div chưa các button tab */
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+div.tabMain {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* định dạng các button tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    color: black;
+    transition: 0.3s;
+    font-size: 17px;
+    width: 25%;
+}
+
+div.tabMain button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    color: black;
+    transition: 0.3s;
+    font-size: 17px;
+    width: 50%;
+}
+
+/* đổi màu khi một button tab được hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+div.tabMain button:hover {
+    background-color: #ddd;
+}
+
+/* đổi màu nền cho tab đang được hiển thị nội dung */
+div.tab button.active {
+    background-color: #ccc;
+    color: mediumblue;
+}
+
+div.tabMain button.active {
+    background-color: #ccc;
+    color: mediumblue;
+}
+
+/* định dạng nội dung hiển thị */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    height: auto;
+}
+
+input[type=file] {
+    display: initial;
+    padding-left: 15px;
+}
+
+.tab {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn-default {
+    background-color: #f4f4f4;
+    color: #444;
+    border-color: #ddd;
+}
+
+.btn-success {
+    background-color: #00a65a !important;
+    border-color: #008d4c !important;
+}
+.divTitleSurvey {
+    border-top: 5px solid #ee5744;
+}
+
+.Content-TitleSurvey {
+    padding: 10px 10px 5px 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Content-MoTaSurvey {
+    padding: 3px 10px 10px 10px;
+}
+.col-xs-4 {
+    width: 25%;
+}
+
+.CssPage {
+    border-radius: 6px;
+    margin: 15px 5px 15px 5px;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    /*min-height: 200px;*/
+    text-shadow: 0 0 black;
+    box-shadow: 0px 4px 10px #888888;
+}
+
+.CtrlName {
+    color: orange;
+}
+
+.PageNumber {
+    background-color: #888888;
+    padding: 10px;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.PageName {
+    color: white;
+}
+
+.divCtrlName {
+    padding: 10px;
+}
+
+.ItemTextTitle {
+    padding: 5px;
+}
+
+.ConfigItemSurvey {
+    margin: 10px;
+    background-color: #DDDDDD;
+    min-height: 119px;
+    padding: 3px 3px 1px 3px;
+    border-radius: 7px;
+}
+
+.ItemConfig {
+    margin-bottom: 2px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 3px;
+}
+.ItemInput {
+    padding: 10px;
+}
+
+.NewQuestion {
+    text-align: center;
+    padding: 15px;
+}
+
+.ItemButton {
+    padding: 10px;
+    text-align: right;
+}
+
+.Form-Control {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.AllPage_ToDo {
+    width: 100%;
+}
+.ToolBuider {
+    width: 18%;
+    border-radius: 6px;
+    margin: 15px 5px 14px 6px;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    text-shadow: 0 0 black;
+}
+.completed-survey {
+    font-family: initial;
+    margin: 10px;
+}
+.ButtonsSurvey {
+    padding: 8px 20px 8px 10px;
+    border: 1px #ebebeb solid;
+    background-color: #fafafa;
+    border-bottom: 0;
+    position: relative;
+    border-radius: 3px 3px 0 0;
+    z-index: 20;
+    text-align: right;
+}
+.AllPage {
+    width: 80%;
+}
+
+.Report_ContentPage {
+    padding: 2px;
+    margin: 18px;
+}
+.ShowContentSurveyReport {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 5px;
+}
+
+.ContentSurveyReport {
+    background-color: white;
+    text-align: center;
+    min-height: 80px;
+}
+
+.Answer_Content{
+    color:red;
+}
+.Answer_CountTitle {
+    color: #888888;
+}
+.Answer_CountNumber {
+    color: red;
+}
+.spnNewPage {
+    color: red;
+}
+.divNewPage {
+    text-align: center;
+    border: 1px dashed red;
+    padding: 5px;
+    border-radius: 6px;
+    margin: 15px 5px 15px 5px;
+}
+.Content_divNewPage{
+
+}
+.ToolBuider-Title {
+    background-color: #888888;
+    padding: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 6px 6px 0px 0px;
+}
+
+.ToolBuider-Content {
+    background-color: #888888;
+    padding: 2px;
+}
+
+.ctrlToolBuider {
+    background-color: white;
+    padding: 3px;
+}
+
+
+
+.Control-Servey {
+    margin: 5px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    box-shadow: 0px 1px 4px darkgrey;
+}
+
+.ShowItem {
+    display: none;
+}
+.ShowContent {
+    padding: 10px;
+    background-color: #DDDDDD;
+    border-bottom: 0.5px dashed orange;
+}
+.tablinks::after {
+    content: "";
+    display: block;
+    background-color: #24C8E0;
+    width: 0%;
+    height: 3px;
+    transition: all 0.5s;
+}
+
+.tablinks.active::after {
+    display: block;
+    background-color: #24C8E0;
+    width: 100%;
+    height: 3px;
+}
+
+.tablinks:hover::after {
+    content: "";
+    display: block;
+    background-color: #24C8E0;
+    width: 100%;
+    height: 3px;
+}
+
+.tablinks:hover {
+    transition: all 3s;
+    background-color: rgba(247, 250, 255);
+}
+
+.tablinks {
+    font-size: large;
+    border-right: black;
+}
+
+.tab {
+    background-color: #f7faff;
+}
+
+
+.title_page {
+    width: 100%;
+    height: 40px;
+    border: 1px rgb(82, 82, 82);
+    background-color: rgb(255, 172, 158);
+    color: white;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+/* .tab button.active {
+  
+    border-radius: 5px;
+} */
+.content_page {
+    width: 100%;
+    height: 40px;
+    border: 0.3px rgb(192, 188, 188) solid;
+    vertical-align: middle;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 2px;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 0px;
+}
+
+* {
+    box-sizing: border-box
+}
+
+
+
+.v_tab input[type=button] {
+    background-color: inherit;
+    color: black;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+    .v_tab input[type=button]:hover {
+        background-color: transparent;
+        transform: scale(1.12);
+    }
+
+    .v_tab input[type=button].active {
+        background-color: transparent;
+        border-radius: 5px;
+        color: orange;
+    }
+
+.v_tablinks {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.v_tablinks.active::before {
+    padding-right: 10px;
+    color: #24C8E0;
+    font-size: xx-large;
+}
+
+.v_tablinks::after {
+    content: "";
+    display: block;
+    background-color: #24C8E0;
+    width: 0%;
+    height: 3px;
+    transition: all 0.5s;
+}
+
+.v_tablinks:hover::after {
+    content: "";
+    display: block;
+    background-color: #24C8E0;
+    width: 100%;
+    height: 3px;
+}
+
+.v_tablinks.active::after {
+    content: "";
+    display: block;
+    background-color: #24C8E0;
+    width: 100%;
+    height: 3px;
+}
+
+.v_tablinks:hover span {
+    padding-right: 25px;
+}
+
+    .v_tablinks:hover span:after {
+        opacity: 1;
+        right: 0;
+    }
+
+.v_tablinks:hover {
+    transition: all 3s;
+    background-color: rgba(247, 250, 255);
+}
+
+.v_tabcontent {
+    padding: 0px 12px;
+    position: relative;
+}
+
+.ItemInputAnswer {
+    padding: 5px;
+}
+.CheckDone {
+    background-color: #33CCFF;
+    border-color: #33CCFF;
+    color: black;
+}
+.btn-config {
+    background-color: #3c8dbc;
+    border-color: #367fa9 !important;
+    border: 0 solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: rgba(255, 255, 255, .5);
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+    .btn-config:hover {
+        border: 1px solid;
+        box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+        outline-color: rgba(255, 255, 255, 0);
+        outline-offset: 15px;
+        text-shadow: 1px 1px 2px #427388;
+    }
+/*---- SurveyDesign -------*/
+.k-slider a.k-button {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: none;
+    line-height: normal;
+}
+
+ul.k-upload-files {
+    border: 0;
+}
+
+    ul.k-upload-files li {
+        border-bottom: 0;
+        text-align: left;
+    }
+
+.TempQuestion ul.k-upload-files li {
+    display: block;
+}
+
+.editingSurvey {
+    background-color: transparent;
+    border: 0;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+body .SingleSurveyPage .PageView {
+    min-height: inherit;
+    margin: 0;
+    position: relative;
+}
+
+body .SingleSurveyPage > .TopMenuPage {
+    margin: 0;
+    height: 44px;
+}
+
+.two-col .ItemInput span.kendoDatePicker {
+    width: 25%;
+}
+
+.div-category {
+    float: left;
+    width: 262px;
+    box-sizing: border-box;
+}
+
+.group-category {
+    border-radius: 4px;
+    background-color: #e1e1e1;
+}
+
+.header-category {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+    .header-category span {
+        text-transform: uppercase;
+        color: #2a3342;
+        font-size: 14px;
+        font-weight: 700;
+    }
+
+    .header-category:after {
+        font-family: FontAwesome;
+        content: "\f0d7";
+        float: right;
+        font-size: 16px;
+        color: #797c82;
+    }
+
+.expanded .header-category:after {
+    display: none;
+}
+
+.group-category .addList {
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease 0s;
+}
+
+.group-category.expanded {
+    padding-bottom: 12px;
+}
+
+.expanded .addList {
+    height: auto;
+}
+
+#ListBuilder {
+    list-style: none;
+    padding: 0;
+    margin: 0 12px;
+    border-radius: 3px;
+    max-height: 434px;
+}
+
+    #ListBuilder div.mCSB_scrollTools {
+        right: -4px;
+    }
+
+    #ListBuilder li {
+        margin-top: 3px;
+        position: relative;
+    }
+
+        #ListBuilder li:first-child {
+            margin-top: 0;
+        }
+
+    #ListBuilder a {
+        display: block;
+        padding: 8px 10px 8px 42px;
+        background-color: #fff;
+        border-radius: 3px;
+    }
+
+    #ListBuilder .q-item-icon {
+        display: inline-block;
+        width: 33px;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-color: #8a8d90;
+        border-radius: 3px 0 0 3px;
+    }
+
+    #ListBuilder a:before {
+        content: "";
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        top: 8px;
+        left: 7px;
+        z-index: 10;
+        background: url("/Assets/images/sprite2.png") no-repeat -134px -272px;
+    }
+
+    #ListBuilder a.MultipleTextboxes:before {
+        background-position: -134px -290px
+    }
+
+    #ListBuilder a.Choice:before {
+        background-position: -134px -309px
+    }
+
+    #ListBuilder a.RadioChoiceDropdown:before {
+        background-position: -155px -294px
+    }
+
+    #ListBuilder a.DateTime:before {
+        background-position: -134px -331px
+    }
+
+    #ListBuilder a.MatrixRatingScale:before {
+        background-position: -134px -354px
+    }
+
+    #ListBuilder a.MatrixofDropdownMenus:before {
+        background-position: -134px -374px
+    }
+
+    #ListBuilder a.FileUpload:before {
+        background-position: -134px -412px
+    }
+
+    #ListBuilder a.StarRating:before {
+        background-position: -134px -431px
+    }
+
+    #ListBuilder a.Ranking:before {
+        background-position: -134px -393px
+    }
+
+    #ListBuilder a.Slider:before {
+        background-position: -134px -453px
+    }
+
+    #ListBuilder a.MatrixofTextbox:before {
+        background-position: -134px -475px
+    }
+
+    #ListBuilder a.Text:before {
+        background-position: -155px -275px
+    }
+
+    #ListBuilder a.ImageAB:before {
+        background-position: -155px -312px
+    }
+
+    #ListBuilder a:after {
+        content: "";
+        background-color: #8a8d90;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 100%;
+        border-radius: 3px;
+        transition: all 0.3s ease 0s;
+    }
+
+    #ListBuilder a:hover:after {
+        width: 100%;
+    }
+
+    #ListBuilder a:hover {
+        color: #fff;
+    }
+
+    #ListBuilder a span {
+        position: relative;
+        z-index: 11;
+    }
+
+.enter-choices span.err {
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+#ListQuestionTemplate {
+    padding: 0;
+    margin: 0 12px;
+    list-style: none;
+}
+
+    #ListQuestionTemplate li {
+        margin-top: 3px;
+    }
+
+        #ListQuestionTemplate li:first-child {
+            margin-top: 0;
+        }
+
+        #ListQuestionTemplate li a {
+            display: block;
+            padding: 8px 12px;
+            border-radius: 3px;
+            background-color: #fff;
+        }
+
+            #ListQuestionTemplate li a:hover {
+                background-color: #f5f5f5;
+                color: #f04e23
+            }
+
+.livePreview {
+    float: right;
+    width: 75%;
+    box-sizing: border-box;
+}
+
+.settings .livePreview {
+    width: 74%;
+}
+
+.settings.Box-hide .livePreview {
+    width: 77.5%;
+}
+
+.livePreview .Buttons {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    text-align: left;
+}
+
+.livePreview .ButtonsHeader .Buttons {
+    text-align: right;
+}
+
+.PageIndex span {
+    text-transform: uppercase;
+    float: left;
+    padding-top: 3px;
+    margin-right: 20px;
+}
+
+.livePreview .Buttons .left {
+    float: left;
+}
+
+.livePreview .Buttons .right {
+    float: right;
+}
+
+.PageNavigator {
+    text-align: right;
+    position: relative;
+    height: 40px;
+    padding-top: 0;
+}
+
+    .PageNavigator .right > div {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .PageNavigator button {
+        margin: 0 0 0 4px;
+    }
+
+.SurveyFixed {
+    padding-top: 59px;
+}
+
+    .SurveyFixed .editingSurvey,
+    .SurveyFixed .PageSubmitEvaluation,
+    .SurveyFixed > .right {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        z-index: 1089;
+        box-sizing: border-box;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+        border-bottom: 1px #e1e1e1 solid;
+        padding: 15px 1.5% 15px 102px;
+    }
+
+    .SurveyFixed #DesignCategory {
+        position: fixed;
+        top: 85px;
+        width: 262px;
+    }
+
+#DesignCategory .group-category:first-child {
+    margin-bottom: 20px;
+}
+
+.hiddenscroll .SurveyFixed .editingSurvey {
+    position: static;
+}
+
+.DropDownButton,
+.QuickMovePage {
+    display: inline-block;
+    position: relative;
+}
+
+.Buttons button,
+.HiddenButtons button,
+.PageNavigator button,
+.Buttons a.btn-Download {
+    padding: 4px 10px;
+    background-color: #fafafa;
+    border: 1px #e5e5e5 solid;
+    color: #2a3342;
+}
+
+.Buttons a.btn-Download {
+    vertical-align: middle;
+    padding: 3px 10px;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+.content-survey .Buttons a.btn-Download:before {
+    background-position: 0 -1124px;
+    margin-top: -3px;
+}
+
+.Buttons button:hover,
+.Buttons a.btn-Download:hover {
+    background-color: #e1e1e1;
+}
+
+.Form .Buttons button.btn-SearchAll:before {
+    background-position: 0 -447px;
+}
+
+.editingSurvey button {
+    padding: 6px 10px;
+    text-align: left;
+}
+
+    .editingSurvey button:before,
+    .editingSurvey button.btnNext:after,
+    .ExportButtons button:before {
+        content: "";
+        display: inline-block;
+        width: 14px;
+        height: 12px;
+        vertical-align: middle;
+        background: url("/Assets/images/sprite2.png") no-repeat -73px -357px;
+        margin-right: 8px;
+    }
+
+    .editingSurvey button.btnOverview:before {
+        background-position: -268px -154px;
+        width: 15px;
+        height: 15px;
+        margin: -2px 8px -1px 0;
+    }
+
+    .editingSurvey button.btnPrint:before,
+    .ExportButtons button.btn-Print:before {
+        background-position: -73px -372px;
+    }
+
+    .editingSurvey button.btnNext {
+        border-color: transparent;
+        background-color: #f04e23;
+        color: #fff;
+    }
+
+        .editingSurvey button.btnNext:before {
+            display: none;
+        }
+
+        .editingSurvey button.btnNext:after {
+            background-position: -73px -388px;
+            margin-left: 8px;
+            margin-right: 0;
+        }
+
+    .editingSurvey button.btnActive:before {
+        background-position: 0px -339px;
+    }
+
+.btn-menuSurveyPageNavigator {
+    min-width: 110px;
+    text-align: left;
+}
+
+.Buttons button:before,
+.Buttons button:after,
+.DropDownButton button:after {
+    font-family: FontAwesome;
+}
+
+.DropDownButton button:after {
+    content: "\f0d7";
+    float: right;
+    margin-top: 1px;
+}
+
+.DropDownButton button:focus,
+.DropDownButton btn:focus {
+    background-color: #f04e23;
+    color: #fff;
+    border-radius: 4px 4px 0 0;
+    outline: none;
+    border-color: transparent;
+}
+
+.livePreview .Buttons .btn-PreviousPage:before {
+    content: "\f0d9";
+}
+
+.livePreview .Buttons .btn-NextPage:before {
+    content: "\f0da";
+}
+
+.livePreview .QuickMovePage button {
+    min-width: inherit;
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.livePreview .Buttons .left button {
+    margin-left: 0;
+    min-width: 120px;
+    text-align: left;
+}
+
+.ddl-popup {
+    display: none;
+    min-width: 180px;
+    border-left: 4px #f04e23 solid;
+    background-color: #fff;
+    border-radius: 0 3px 3px 0;
+    position: absolute;
+    left: 0;
+    top: 24px;
+    z-index: 60;
+    border-right: 1px #eaeaea solid;
+    border-bottom: 1px #eaeaea solid;
+}
+
+    .ddl-popup ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: left;
+        max-height: 350px;
+        overflow: auto;
+    }
+
+        .ddl-popup ul li.disabled {
+            opacity: .5;
+            pointer-events: none;
+            cursor: default;
+        }
+
+    .ddl-popup.isVisible {
+        display: block;
+    }
+
+.isVisible a.option {
+    font-size: 13px;
+}
+
+.ddl-popup a {
+    display: block;
+    width: auto;
+    height: auto;
+    background: none;
+    padding: 8px 10px;
+    border-top: 1px #eaeaea solid;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+    .ddl-popup a:hover {
+        color: #f04e23;
+    }
+
+.ddl-popup li:first-child a {
+    border-top: 0;
+}
+
+.btn .ddl-popup li:hover {
+    background-color: #efefef;
+    border-radius: 3px;
+}
+
+.PageView .Buttons button,
+.HiddenButtons button {
+    padding: 6px 15px;
+    margin-left: 3px;
+}
+
+    .Buttons button.btn-Save,
+    .HiddenButtons button.btn-Edit,
+    .HiddenButtons input[type="button"],
+    .btnSave, .btnAdd,
+    .Survey-Page-Header button.btn-Edit,
+    .Buttons button.btn-SaveChange,
+    .Buttons button.btn-MoveQuestion,
+    .Buttons button.btn-CopyQuestion,
+    .TopFixed .Buttons button:first-child,
+    .ItemRight button.ReplaceLogo,
+    .Buttons button.btn-DeleteQuestion,
+    .PageNavigator button.btn-NextPage,
+    .PageNavigator button.btn-PreviousPage,
+    .PageNavigator button.btn-DoneButton {
+        background-color: #f04e23;
+        border-color: transparent;
+        color: #fff;
+    }
+
+.div-editable .btn {
+    display: none;
+}
+
+.isHovering .btn,
+.Logo-SurveyTableTitle:hover .SurveyTitle .btn,
+.PageView .NewQuestion .btn {
+    display: inline-block;
+}
+
+.SurveyPagePreview {
+    padding-bottom: 5px;
+}
+
+.PageView {
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    color: #2a3342;
+}
+
+.Description-Text > span {
+    font-family: "MyriadPro" !important;
+    font-size: 14px !important;
+}
+
+.livePreview .PageView {
+    padding-bottom: 0;
+}
+
+.MenuLogo {
+    padding: 8px 10px;
+    text-align: center;
+    position: relative;
+}
+
+    .MenuLogo > div > span {
+        font-weight: 700;
+        color: #ee5744;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: middle
+    }
+
+span.iconGalery {
+    width: 30px;
+    height: 25px;
+    background: url("/Assets/images/sprite2.png") no-repeat -71px -475px;
+    margin-right: 6px;
+}
+
+.ItemRow {
+    box-sizing: border-box
+}
+
+.AboveLogo,
+.BelowLogo {
+    position: relative;
+}
+
+    .AboveLogo:empty,
+    .BelowLogo:empty {
+        display: none;
+    }
+
+.Logo-SurveyTableTitle,
+.SurveyPageTitle,
+.Survey-Page-Header > .SurveyTitle,
+.Survey-Page-Header > .PageTitle {
+    background-color: #8a8d90;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    min-height: 21px;
+    position: relative;
+    border-radius: 0;
+}
+
+    .SurveyPageTitle .PageTitle,
+    .Logo-SurveyTableTitle .SurveyTitle {
+        padding: 0;
+    }
+
+div.SurveyPageTitle,
+.Survey-Page-Header .PageTitle {
+    background-color: #b5b9bc;
+}
+
+.Logo-SurveyTableTitle > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Logo-SurveyTableTitle.above .BelowLogo {
+    display: none;
+}
+
+.Logo-SurveyTableTitle .SurveyTitle {
+    font-weight: 700;
+}
+
+.Logo-SurveyTableTitle.above .SurveyTitle,
+.Logo-SurveyTableTitle.below .SurveyTitle {
+    display: block;
+    padding-bottom: 15px;
+}
+
+.Logo-SurveyTableTitle.above .SurveyTitle {
+    padding-bottom: 5px;
+    padding-top: 10px;
+}
+
+.left img.imgSurveyLogo {
+    margin-right: 15px;
+}
+
+.PreView-Survey-Logo {
+    min-height: 27px;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.PageView .PreView-Survey-Logo .ItemRight {
+    right: 0;
+}
+
+.PageView .ItemRight {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: auto;
+    margin-top: -13px;
+}
+
+.SurveyTitleSetting,
+.SurveyLogoSetting {
+    background-color: #fff;
+    padding: 15px;
+    border: 8px #8a8d90 solid;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 50;
+}
+
+.SurveyLogoSetting {
+    position: static;
+    border-radius: 4px 4px 0 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.SurveyLogoSetting {
+    border-width: 3px;
+}
+
+.SurveyTitleSetting > div,
+.SurveyPageTitleSetting > div {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+}
+
+.TitleTextSetting label,
+.TitleOption label {
+    display: block;
+    padding-bottom: 8px;
+    font-weight: 500;
+}
+
+.TitleTextSetting input {
+    width: 100%;
+}
+
+.TitleTextSetting span {
+    display: inline-block;
+    margin-top: 8px;
+    color: #f04e23;
+}
+
+.SurveyPage > div > div.Buttons {
+    margin-bottom: 0;
+}
+
+.upload-drop-area,
+.dragdropFileDescription {
+    border: 2px #999 dashed;
+    background-color: #eaeae8;
+    text-align: center;
+    background-clip: padding-box;
+    min-height: 140px;
+}
+
+.middleInfo p {
+    color: #909090;
+    font-weight: 700;
+    font-size: 20px;
+    text-shadow: 0 1px 0 #fff;
+    padding: 20px 0 10px 0;
+    margin: 0;
+}
+
+.type-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+    .type-list li {
+        display: inline-block;
+        vertical-align: top;
+        padding: 3px 8px;
+        background-color: #A9A9A9;
+        color: #fff;
+        font-weight: 700;
+        margin: 0 1px;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+
+.bottomInfo {
+    padding: 15px 0;
+}
+
+.dragdropFileDescription .bottomInfo {
+    padding: 0;
+}
+
+.LogoOptions {
+    padding: 20px 0 0 0;
+    text-align: center;
+}
+
+    .LogoOptions > div {
+        margin: 0 10px;
+        display: inline-block;
+    }
+
+        .LogoOptions > div label {
+            padding-right: 10px;
+        }
+
+.SurveyLogoSetting .Buttons {
+    text-align: right;
+    padding-top: 20px;
+}
+
+div.k-upload {
+    background: none;
+}
+
+img.imgSurveyLogo {
+    width: 400px;
+    vertical-align: middle;
+}
+
+    img.imgSurveyLogo.actualSize {
+        width: auto;
+        max-width: 100%;
+    }
+
+    img.imgSurveyLogo.preview {
+        width: 80px;
+    }
+
+    img.imgSurveyLogo.large {
+        width: 350px;
+    }
+
+    img.imgSurveyLogo.medium {
+        width: 250px;
+    }
+
+    img.imgSurveyLogo.small {
+        width: 150px;
+    }
+
+.ItemRight button {
+    margin: 0 0 0 3px;
+}
+
+.SurveyLogoRemoveSetting .Buttons {
+    padding: 20px;
+}
+
+.TopFixed {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 15;
+    width: 100%;
+    background-color: #fff;
+}
+
+.CopyPageSetting,
+.MovePageSetting,
+.DeletePageSetting,
+.SurveyPageTitleSetting {
+    padding: 10px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+}
+
+.innerPanelWarning {
+    padding: 8px 20px;
+}
+
+    .innerPanelWarning .warning {
+        color: #ee5744
+    }
+
+.DeletePageSetting .Buttons {
+    padding: 6px 10px;
+}
+
+    .DeletePageSetting .Buttons button {
+        margin-left: 8px;
+    }
+
+.innerPanelBody .disabled {
+    visibility: hidden;
+}
+
+.innerPanelHeader {
+    background-color: #f1f1f1;
+    padding: 8px 20px;
+    border-bottom: 1px #fff solid;
+    border-radius: 4px 4px 0 0;
+    font-weight: 700;
+}
+
+.innerPanelBody {
+    padding: 20px 15px 20px 15px;
+    background-color: #f1f1f1;
+    border-radius: 0 0 4px 4px;
+}
+
+    .innerPanelBody > div {
+        display: inline-block;
+        padding-right: 20px;
+        vertical-align: middle;
+    }
+
+        .innerPanelBody > div > label {
+            padding-right: 10px;
+            display: block;
+            padding-bottom: 4px;
+        }
+
+.CopyPageSetting .Buttons,
+.MovePageSetting .Buttons {
+    padding-top: 10px;
+}
+
+.thePage {
+    padding: 20px 10px 30px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.beforeAfter {
+    position: relative;
+}
+
+    .beforeAfter select {
+        position: relative;
+        z-index: 9;
+    }
+
+    .beforeAfter:after {
+        content: "";
+        display: inline-block;
+        width: 60px;
+        height: 49px;
+        position: absolute;
+        left: 40px;
+        top: 34px;
+        background: url("/Assets/images/sprite2.png") no-repeat -161px -451px;
+    }
+
+    .beforeAfter.before:after {
+        left: 36px;
+        top: -24px;
+        background-position: -161px -400px;
+    }
+
+.theQuestion {
+    background-color: #fff;
+    border: 1px #d1d1d1 dashed;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+    .theQuestion select {
+        min-width: 220px;
+        width: 100%;
+    }
+
+.PageContent {
+    padding: 5px 10px 0;
+}
+
+.PageView .PageContent {
+    padding: 5px 20px 20px;
+}
+
+.question-row {
+    padding: 8px 10px;
+    border: 1px transparent dashed;
+    position: relative;
+    border-radius: 4px;
+    margin: 10px 0;
+    z-index: 10;
+}
+
+    .question-row:hover {
+        border-color: #ffa8ab;
+    }
+
+.SurveyPageEvaluation .question-row:hover,
+.SurveyPageReview .question-row:hover {
+    border-color: transparent;
+}
+
+.HiddenButtons {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: right;
+    box-sizing: border-box;
+    padding-right: 4px;
+    z-index: 99;
+}
+
+    .HiddenButtons button {
+        margin: 5px 2px 0 0;
+    }
+
+.question-row:hover .HiddenButtons {
+    display: block;
+    background-color: rgba(255, 255, 255, .75)
+}
+
+.q-Content .ItemRow .ItemText,
+.q-OtherComment .ItemText {
+    width: 190px;
+    padding-right: 0;
+    font-weight: normal;
+}
+
+.q-OtherComment .ItemText {
+    font-weight: 700;
+    color: #9b9ead;
+}
+
+.RankingQuestion .q-Content .ItemRow .ItemText {
+    width: 250px;
+    white-space: normal;
+}
+
+.q-Editor .ItemRow .ItemText {
+    
+}
+
+.q-HeaderTitle label.q-Title {
+    display: block;
+    font-size: 22px;
+    color: #4DB2EC;
+    margin-bottom: 15px;
+}
+
+.q-Preview input,
+.q-Preview textarea {
+    width: 50%;
+    min-width: 56px;
+}
+
+    .q-Preview input[type=radio],
+    .q-Preview input[type=checkbox] {
+        width: auto;
+    }
+
+.q-Preview.MultipleChoices .MultipleChoices .ItemText {
+    width: 30px;
+    padding-right: 0;
+}
+
+.q-Content .MultipleChoices .ItemText select {
+    width: 100%;
+}
+
+.SingleLineTextBox textarea {
+    width: 100%;
+    min-height: 78px;
+}
+
+.NewQuestion,
+.addNewPage {
+    text-align: center;
+    padding: 15px 0 10px 0;
+    border-radius: 4px;
+}
+
+.addNewPage {
+    border: 1px rgba(219, 18, 18, .6) dashed;
+    padding: 12px 0;
+    margin: 20px 0;
+}
+
+.q-Content .ItemText input[type=radio],
+.q-Content .ItemText input[type=checkbox],
+.q-Content .ItemInput input[type=radio],
+.q-Content .ItemInput input[type=checkbox],
+.q-Content .tb-form input[type=radio],
+.q-Content .tb-form input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+    min-width: inherit;
+}
+
+.q-Content .tb-form select {
+    width: 100%;
+}
+
+button.btn-AddNewPage {
+    margin-left: 0;
+    background-color: transparent;
+    color: #ee5744;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+    button.btn-AddNewPage:hover {
+        color: #f04e23;
+    }
+
+    button.btn-AddNewPage:before {
+        content: "";
+        display: inline-block;
+        width: 16px;
+        height: 18px;
+        background: url("/Assets/images/sprite2.png") no-repeat -85px -264px;
+        margin-right: 8px;
+        vertical-align: top;
+    }
+
+.btn-AddQuestion {
+    display: inline-block;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #f04e23;
+    position: relative;
+}
+
+    .btn-AddQuestion:focus {
+        border-radius: 4px 4px 0 0;
+    }
+
+    .btn-AddQuestion .ddl-popup,
+    .ddl-Types .ddl-popup {
+        top: 35px;
+        width: 470px;
+        border-top: 1px #eaeaea solid;
+        padding: 10px;
+        box-sizing: border-box
+    }
+
+        .btn-AddQuestion .ddl-popup li,
+        .ddl-Types .ddl-popup li {
+            width: 48%;
+            display: inline-block;
+            margin: 0 1%;
+        }
+
+            .btn-AddQuestion .ddl-popup li a,
+            .ddl-Types .ddl-popup li a {
+                border-top: 0;
+                border-radius: 4px;
+                display: inline-block;
+            }
+
+.ddl-popup li .q-item-icon,
+.k-selectable span.q-item-icon {
+    display: inline-block;
+    width: 14px;
+    height: 15px;
+    margin-left: 10px;
+    background: url("/Assets/images/sprite2.png") no-repeat -231px -252px;
+    vertical-align: middle;
+}
+
+.ddl-popup li.SingleTextbox .q-item-icon,
+.k-selectable span.SingleTextbox {
+    background-position: -231px -275px
+}
+
+.ddl-popup li.Choice .q-item-icon,
+.k-selectable span.Choice {
+    background-position: -231px -312px
+}
+
+.ddl-popup li.MatrixRatingScale .q-item-icon,
+.k-selectable span.MatrixRatingScale {
+    background-position: -231px -354px
+}
+
+.ddl-popup li.FileUpload .q-item-icon,
+.k-selectable span.FileUpload {
+    background-position: -231px -413px
+}
+
+.ddl-popup li.Ranking .q-item-icon,
+.k-selectable span.Ranking {
+    background-position: -231px -394px
+}
+
+.ddl-popup li.MatrixofTextbox .q-item-icon,
+.k-selectable span.MatrixofTextbox {
+    background-position: -231px -476px
+}
+
+.ddl-popup li.MultipleTextboxes .q-item-icon,
+.k-selectable span.MultipleTextboxes {
+    background-position: -231px -292px
+}
+
+.ddl-popup li.DateTime .q-item-icon,
+.k-selectable span.DateTime {
+    background-position: -231px -330px
+}
+
+.ddl-popup li.MatrixofDropdownMenus .q-item-icon,
+.k-selectable span.MatrixofDropdownMenus {
+    background-position: -231px -375px
+}
+
+.ddl-popup li.StarRating .q-item-icon,
+.k-selectable span.StarRating {
+    background-position: -231px -432px
+}
+
+.ddl-popup li.Slider .q-item-icon,
+.k-selectable span.Slider {
+    background-position: -231px -456px
+}
+
+.ddl-popup li.RadioChoiceDropdown .q-item-icon,
+.k-selectable span.RadioChoiceDropdown {
+    background-position: -255px -252px
+}
+
+.ddl-popup li.ImageAB .q-item-icon,
+.k-selectable span.ImageAB {
+    background-position: -255px -273px
+}
+
+.btn-AddQuestion span {
+    display: inline-block;
+    padding: 8px 16px 10px;
+    border-right: 1px #cf060e solid;
+    cursor: pointer;
+}
+
+.btn-AddQuestion button {
+    background-color: transparent;
+    padding: 0;
+    min-width: inherit;
+    margin: 0;
+    font-size: 0;
+    width: 32px;
+    height: 32px;
+}
+
+    .btn-AddQuestion button:before {
+        content: "";
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        background: url("/Assets/images/sprite2.png") no-repeat -54px -431px;
+    }
+
+.btn-PasteQuestion {
+    background-color: transparent;
+    margin-left: 0;
+    color: #f04e23;
+}
+
+    .btn-PasteQuestion:hover {
+        background-color: transparent;
+        color: #f04e23;
+    }
+
+.TempQuestion {
+    border: 1px #e9e9e9 solid;
+    background-color: #e9e9e9;
+    border-radius: 4px;
+    position: relative;
+    /*box-shadow:0 0 5px rgba(237, 28, 36, 1)*/
+    border: 2px #ee5744 solid;
+}
+
+.question-row .TempQuestion {
+    margin: -8px -10px;
+}
+
+.TempQuestion .tabs {
+    padding: 8px 10px 0;
+}
+
+.TempQuestion ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    .TempQuestion ul.type-list {
+        margin-top: 12px;
+    }
+
+    .TempQuestion ul li {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+.TempQuestion .listTabs li > a {
+    display: inline-block;
+    padding: 6px 10px;
+    background-color: #8a8d90;
+    border-radius: 3px 3px 0 0;
+    color: #fff;
+    font-weight: 500;
+}
+
+.TempQuestion .listTabs .actived > a {
+    background-color: #fff;
+    color: #2a3342;
+}
+
+.TempQuestion .tab-Content {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+.QuestionTypeOption button {
+    margin-left: 0;
+    padding: 0;
+    border: 0;
+    font-weight: 700;
+    font-size: 13px;
+    background-color: transparent;
+    color: #2a3342;
+}
+
+.TempQuestion .listTabs li.disabled {
+    opacity: .5;
+    cursor: default;
+    pointer-events: none;
+}
+
+.TempQuestion .warning {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #f04e23;
+}
+
+.WarningEditQuestion {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #008000;
+}
+
+.QuestionType > span {
+    display: inline-block;
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ee5744;
+}
+
+.tab-copy .q-Editor {
+    background-color: #eaeae8;
+    padding: 10px;
+}
+
+fieldset.s-expander {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #f4f5f5;
+    background-color: #fff;
+}
+
+    fieldset.s-expander label.switch {
+        background-color: #fff;
+    }
+
+    fieldset.s-expander label.switch {
+        display: block;
+    }
+
+    fieldset.s-expander .block .BankCategory {
+        margin-left: 10px;
+        min-width: 450px;
+    }
+
+table.LogicSetting {
+    table-layout: fixed;
+}
+
+.LogicSetting th {
+    padding-bottom: 10px;
+}
+
+.LogicSetting .qNumber {
+    display: table-cell;
+    padding: 10px;
+    width: 10%;
+}
+
+.LogicSetting .Content {
+    display: table-cell;
+    padding: 10px;
+}
+
+    .LogicSetting .Content input {
+        width: 100%;
+    }
+
+.LogicSetting .answerValueHeader {
+    width: 100px;
+}
+
+.LogicSetting .ButtonsHeader {
+    text-align: right;
+    width: 150px;
+    white-space: nowrap
+}
+
+th.conditionHeader {
+    width: 78px;
+}
+
+th.operatorHeader {
+    width: 60px;
+}
+
+.LogicSetting .ButtonsHeader .Buttons {
+    display: inline-block;
+}
+
+td.answerValue input {
+    width: 100px;
+}
+
+.LogicSetting td input,
+.LogicSetting td select {
+    max-width: 100%;
+}
+
+.LogicSetting td select {
+    margin: 2px 0;
+}
+
+    .LogicSetting td select.skipToQuestion {
+        width: 70%;
+    }
+
+.PageView .SingleBranching button {
+    padding: 0;
+}
+
+.SingleLineTexBox td.SingleBranching {
+    text-align: center;
+}
+
+button.btn-AddMainBranching {
+    background-color: #a7c23d;
+    border-color: transparent;
+    color: #fff;
+}
+
+td.GroupButton,
+td.SingleBranching {
+    text-align: center;
+}
+
+.QuestionTypeOption {
+    background-color: #eaeae8;
+    padding: 10px 10px 0;
+    border-radius: 3px 3px 0 0
+}
+
+div.q-Options {
+    background-color: #eaeae8;
+    padding: 0 12px;
+    box-sizing: border-box;
+    border-radius: 3px
+}
+
+.AnswerValues div.q-Options {
+    padding: 0;
+}
+
+.QuestionSetting.disabled,
+.OptionContent.disabled,
+.question-row.disabled,
+.LogicContent.disabled,
+.RelationContent.disabled {
+    opacity: .4;
+    pointer-events: none;
+    cursor: default;
+}
+
+.q-Editor {
+    padding: 0;
+    border-radius: 0 0 3px 3px
+}
+
+    .q-Editor.Common {
+        border-radius: 3px
+    }
+
+        .q-Editor.Common > label {
+            display: inline-block;
+            padding: 7px 10px;
+            color: #ee5744;
+        }
+
+.q-Options > div {
+    padding: 3px 0;
+}
+
+div.q-Options {
+    padding: 10px;
+}
+
+.tab-Content .switch {
+    padding: 7px 10px;
+    background-color: #cfeae7;
+    border-bottom: 1px #fff solid;
+    border-radius: 3px 3px 0 0;
+}
+
+fieldset.RequireAnswer {
+    border: 0;
+    padding: 0;
+}
+
+.tab-Content .RequireAnswer .switch {
+    background-color: transparent;
+    border-bottom: 0;
+}
+
+.q-Editor .ratingScaleSetting .switch {
+    display: block;
+    border-bottom: 0;
+}
+
+.tab-Content .switch label {
+    font-weight: 700;
+}
+
+.tab-Content .block {
+    padding: 15px 10px 10px;
+}
+
+.tab-copy .block {
+    padding: 10px;
+}
+
+.thePage,
+.beforeAfter,
+.theQuestion {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.theQuestion {
+    margin: 20px 0 0;
+}
+
+.tab-Content .block > div label {
+    padding-right: 10px;
+    display: block;
+    padding-bottom: 6px;
+}
+
+.tab-Content .SingleBranching {
+    padding-top: 0;
+}
+
+.zone_Header > label {
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 8px;
+}
+
+.tab-Content .block > div label:empty {
+    display: none;
+}
+
+.zone_Header .zone_Description {
+    padding-top: 10px;
+}
+
+.tab-Content .block .zone_Header .zone_Description {
+    padding-top: 0;
+}
+
+.zone_Header .zone_Description > span {
+    display: inline-block;
+    color: #008000;
+    padding-bottom: 10px;
+}
+
+.movePage_warning .zone_Header {
+    padding-left: 20px;
+}
+
+    .tab_warning,
+    .movePage_warning .zone_Header > label {
+        color: #ee5744;
+        font-weight: normal;
+    }
+a.a-design, a.a-collect, a.a-analyze {
+    display: inline-block;
+    width: 26px;
+    height: 18px;
+    cursor: pointer;
+    background: url("/Assets/images/sprite2.png") no-repeat -186px -174px;
+    font-size: 0;
+    vertical-align: middle;
+}
+
+a.a-collect {
+    background-position: -186px -202px;
+}
+
+    a.a-collect.disabled {
+        background-position: -186px -256px;
+        cursor: default
+    }
+
+a.a-analyze.disabled {
+    background-position: -186px -283px;
+    cursor: default
+}
+
+a.a-analyze {
+    background-position: -186px -230px;
+}
+.Label_Options {
+    font-weight: 700;
+}
+.AnswerReport_Content {
+    margin-bottom: 10px;
+    padding: 2px;
+    background-color: #DDDDDD;
+}
+button.button-edit, button.button-delete {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0 6px;
+    cursor: pointer;
+    background: url("/Assets/images/sprite2.png") no-repeat 0 -322px;
+    font-size: 0;
+    vertical-align: middle;
+    border: transparent;
+}
+
+button.button-delete {
+    background-position: 0 -354px;
+}
+
+span.ic-warning {
+    display: inline-block;
+    width: 15px;
+    height: 14px;
+    margin-right: 4px;
+    background: url("/Assets/images/sprite2.png") no-repeat -268px -106px;
+    vertical-align: middle;
+    margin-top: -2px;
+}
+
+.zone_Header .ic-warning {
+    margin-top: 6px;
+}
+
+.q-HeaderTitle > span {
+    font-weight: 700;
+    padding-right: 8px;
+}
+
+.q-Editor .q-HeaderTitle {
+    padding: 10px;
+}
+
+.SingleLineTexBox .q-HeaderTitle .qNumber {
+    padding: 0;
+    width: auto;
+}
+.addItemRow {
+    width: 30px;
+    text-align: left;
+    float: left;
+    border-radius: 6px ;
+}
+.btn-AddItemRow {
+    background-position: 0 -715px !important;
+}
+.btn-SubItemRow {
+    background-position: 0 -670px !important;
+}
+.livePreview {
+    float: right;
+    width: 75%;
+    box-sizing: border-box;
+}
+
+.settings .livePreview {
+    width: 74%;
+}
+
+.settings.Box-hide .livePreview {
+    width: 77.5%;
+}
+
+.livePreview .Buttons {
+    padding: 0;
+    border: 0;
+    background-color: transparent;
+    text-align: left;
+}
+
+.livePreview .ButtonsHeader .Buttons {
+    text-align: right;
+}
+
+.PageIndex span {
+    text-transform: uppercase;
+    float: left;
+    padding-top: 3px;
+    margin-right: 20px;
+}
+
+.livePreview .Buttons .left {
+    float: left;
+}
+
+.livePreview .Buttons .right {
+    float: right;
+}
+.q-Editor .q-Content .ListItemRow {
+    padding: 15px 10px 10px;
+    padding-right: 10px;
+    position: relative;
+    background-color: #f4f5f5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    margin-top: 12px;
+    min-height: 175px;
+}
+
+    .q-Editor .q-Content .ListItemRow:first-child {
+        margin-top: 0;
+    }
+
+    .q-Editor .q-Content .ListItemRow .rowChoices span,
+    .q-Editor .q-Content .ListItemRow .columnChoices span {
+        margin-top: 0;
+    }
+
+.q-Editor .q-Content:empty {
+    display: none;
+}
+
+.q-Editor .q-Content input.q-Title {
+    width: 100%;
+}
+
+.q-Editor .q-HeaderTitle > span {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.q-Editor .q-HeaderTitle .q-Title {
+    width: 100%;
+}
+
+.q-Content > .q-Header {
+    padding: 10px 0 0;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.q-Content > .q-Description {
+    padding: 10px;
+}
+
+.q-Editor .q-Content > .q-Description {
+    padding: 0;
+}
+
+.q-Editor textarea.DescriptionValue {
+    width: 100%;
+}
+
+.q-Editor .Types > label.checkboxSetting,
+.q-Editor .SizeLimit strong {
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.q-Editor .AllowMultipleFileUpload {
+    display: block;
+    padding: 12px 0 6px;
+}
+
+.q-Editor .fileUploadTypesList > label {
+    padding-right: 12px;
+}
+
+span.AllowMultipleFileUpload {
+    color: #37b400;
+}
+
+.q-Content .ItemInput input[type=text],
+.q-Content .ItemInput select,
+.q-Content .ItemInput textarea,
+.q-Content input.q-SingleTextBox,
+.MultipleTextBoxes .ListItemRow .ItemInput input[type="text"] {
+    width: 50%;
+}
+
+.SingleLineTextBox input.q-SingleTextBox {
+    width: 100%;
+}
+
+.q-Editor .divImage {
+    width: 140px;
+    position: absolute;
+    right: 10px;
+    top: 35px;
+}
+
+.divImage .r-title {
+    font-size: 11px;
+    font-style: italic;
+}
+
+.divImage .img {
+    width: 100%;
+    height: 87px;
+    background: url("/PublishingImages/eoffices/SPRITE_create.png") no-repeat;
+    margin-top: 5px;
+}
+
+.divImage .mtr-row-dropdown {
+    background-position: 0 -970px;
+}
+
+.divImage .mtr-col-dropdown {
+    background-position: 0 -850px;
+}
+
+.divImage .mtr-row-rdo {
+    background-position: 0 -250px;
+}
+
+.divImage .mtr-row-chk {
+    background-position: 0 -650px;
+}
+
+.divImage .mtr-col-rdo {
+    background-position: 0 -350px;
+}
+
+.divImage .mtr-row-texbox {
+    background-position: 0 -1468px;
+}
+
+.divImage .mtr-col-texbox {
+    background-position: 0 -1349px;
+}
+
+/*-------------- QuestionContent  ------------*/
+.warning {
+    display: inline-block;
+}
+
+    .warning:empty,
+    .warning.hidden {
+        display: none;
+    }
+
+.QuestionTitle {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    position: relative;
+}
+
+    .QuestionTitle .Required {
+        color: #ee5744;
+        position: absolute;
+        left: -24px;
+        top: -1px;
+        font-size: 32px;
+    }
+
+.q-TitleEditorPreview p img {
+    max-width: 100%;
+}
+
+.q-Preview .warning,
+.question-row .warning {
+    padding: 2px 8px 3px;
+    background-color: #f04e23;
+    border-radius: 3px;
+    color: #fff;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+    .q-Preview .warning:before,
+    .question-row .warning:before {
+        font-family: "FontAwesome";
+        content: "\f0d7";
+        font-size: 18px;
+        position: absolute;
+        bottom: -12px;
+        right: 30px;
+        color: #f04e23
+    }
+
+.question-row .ImageAB .warning {
+    position: absolute;
+    background-color: transparent;
+    color: #f04e23;
+    margin-bottom: auto;
+}
+
+    .question-row .ImageAB .warning:before {
+        display: none;
+    }
+
+.q-Preview .warning:empty {
+    display: none;
+}
+
+.question-rowContent .q-Content {
+    overflow: auto;
+}
+
+.OtherComment .other-HeaderRow {
+    padding-right: 10px;
+}
+
+.OtherComment .ItemInput input[type=text] {
+    display: block;
+    margin-top: 6px;
+}
+
+table.k-selectable .QuestionTitle {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.QuestionTitle label {
+    color: #ee5744;
+}
+
+.QuestionTitle .type-icon {
+    display: inline-block;
+    width: 18px;
+    height: 19px;
+    margin-right: 6px;
+    vertical-align: middle;
+    background: url("/PublishingImages/eoffices/icon-survey.png") no-repeat 0 5px;
+    font-size: 0;
+}
+
+.QuestionTitle .MultipleTextboxes {
+    background-position: 0 -14px
+}
+
+.QuestionTitle .RadioChoiceDropdown {
+    background-position: -21px -15px
+}
+
+.QuestionTitle .CheckBox {
+    background-position: -21px -35px
+}
+
+.QuestionTitle .DateTime {
+    background-position: 0 -54px
+}
+
+.QuestionTitle .MatrixRatingScale {
+    background-position: 0 -76px
+}
+
+.QuestionTitle .MatrixofDropdownMenus {
+    background-position: 0 -97px
+}
+
+.QuestionTitle .FileUpload {
+    background-position: 0 -133px
+}
+
+.QuestionTitle .StarRating {
+    background-position: 0 -154px
+}
+
+.QuestionTitle .Ranking {
+    background-position: 0 -116px
+}
+
+.QuestionTitle .Slider {
+    background-position: 0 -176px
+}
+
+.QuestionTitle .MatrixofTextbox {
+    background-position: 0 -198px
+}
+
+.QuestionTitle .Text {
+    background-position: 0 -275px
+}
+
+.QuestionTitle .ImageAB {
+    background-position: -21px -55px
+}
+
+.ic-Branching,
+.ic-Relating,
+.ic-RelatingTo,
+.ic-BranchingTo,
+.ic-RelatingTo {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    font-size: 0;
+    vertical-align: middle;
+    background: url("/Assets/images/sprite2.png") no-repeat -229px -213px;
+    margin-left: 10px;
+}
+
+.ic-Branching {
+    background-position: -262px -213px;
+}
+
+.ic-BranchingTo {
+    background-position: -330px -213px;
+}
+
+.ic-RelatingTo {
+    background-position: -296px -213px;
+}
+
+.ItemText-Title,
+.ItemText-Description {
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+    .ItemText-Title .Required {
+        color: #f04e23
+    }
+
+.ItemInput-Title input {
+    width: 100%;
+    font-size: 14px;
+}
+
+.ItemInput-Title {
+    width: 90%;
+    display: inline-block;
+    margin-right: -5px;
+    vertical-align: top;
+}
+
+.QuestionTitle .ItemAction {
+    display: inline-block;
+    width: 10%;
+    padding-top: 1px;
+}
+
+.QuestionDescriptions {
+    position: relative;
+}
+
+#s4-bodyContainer .Description-Text a {
+    color: #00a;
+    text-decoration: underline;
+}
+
+.ItemInput-Description .ItemAction {
+    vertical-align: top;
+    text-align: right;
+}
+
+.ItemInput-Description .ImageFile {
+    max-width: 50%;
+}
+
+.ItemInput-Description table.k-editor {
+    height: auto;
+}
+
+.QuestionContent table.k-editor {
+    height: auto;
+}
+
+.k-editor td.k-editable-area {
+    vertical-align: top;
+}
+
+.k-editor iframe.k-content {
+    height: 100px;
+}
+
+.dragdropFileDescription {
+    margin: 20px 0 10px;
+}
+
+.ItemInput-Description {
+    background-color: #f5f5f5;
+    padding: 1%;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+a .k-i-unlink {
+    background-position: -288px -72px
+}
+
+/*------*/
+.ListItemRow .ItemRow .ItemText {
+    font-weight: 700;
+    padding-bottom: 15px;
+    white-space: nowrap;
+}
+
+.ListItemRow .ItemRow .ItemInput {
+    padding-right: 0;
+    width: 90%;
+}
+
+.ListItemRow .ItemInput input[type="radio"],
+.answerSettingChoice .MultipleChoices .ItemInput input[type="checkbox"] {
+    margin-left: 0;
+}
+
+.ListItemRow .ItemInput input[type="text"] {
+    width: 100%;
+}
+
+.ListItemRow .ItemInput input:focus {
+    outline: none;
+}
+
+div.MultipleTextboxes .ItemInput input[type="text"] {
+    margin-bottom: 10px;
+}
+
+.ListItemRow .ItemRow .ItemInput input:first-child {
+    margin-top: 0;
+}
+
+.ListItemRow .ItemAction {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    box-sizing: border-box;
+    padding-top: 11px;
+    background: transparent;
+    border: none;
+}
+
+.enter-choices h4 {
+    font-weight: 600;
+}
+
+    .enter-choices h4 span {
+        font-weight: normal;
+    }
+
+.popup-dialog > .MatrixDropDownMenus {
+    padding: 15px 0 10px;
+}
+
+textarea.menu-options-input {
+    width: 90%;
+    margin: 8px 0;
+    height: 55px;
+}
+
+.enter-choices .err {
+    color: #f04e23;
+    display: block;
+}
+
+span.addnew-choice {
+    display: inline-block;
+    padding-top: 6px;
+    color: #0072c6;
+    cursor: pointer;
+    font-style: italic;
+}
+
+    span.addnew-choice:hover {
+        color: #f04e23
+    }
+
+.FileUpload > .ItemAction,
+.ImageAB > .ItemAction {
+    text-align: right;
+}
+
+.FileUploadQuestion .q-Content .ListItemRow {
+    padding-right: 30px;
+}
+
+.q-Editor.FileUploadQuestion .ListItemRow .ItemRow .ItemText {
+    width: auto;
+    display: block;
+}
+
+.q-Editor.FileUploadQuestion .ListItemRow .ItemRow .ItemInput,
+.ImageAB .ListItemRow .ItemRow .ItemInput {
+    width: 100%;
+    display: block;
+}
+
+.q-Preview.FileUploadQuestion .ItemInput {
+    padding-top: 0;
+    padding-bottom: 10px;
+}
+
+    .q-Preview.FileUploadQuestion .ItemInput .k-upload-button {
+        margin: 0;
+    }
+
+.FileUploadQuestion .q-Content > .q-Description {
+    padding: 0 0 10px 0;
+}
+
+.ImageAB .q-Content .ListItemRow {
+    padding-right: 10px;
+}
+
+.ImageAB .RowTitle {
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+
+.ImageAB .ItemRow {
+    padding: 12px 20px;
+}
+
+.ImageAB .choiceType label {
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.ImageAB .choiceType input {
+    margin-left: 0;
+}
+
+.choiceType .k-dropzone {
+    padding: 0 0 5px 0;
+}
+
+.FileUpload .ItemInput .k-dropzone {
+    padding: 0;
+}
+
+.FileUpload .ItemInput .k-upload-button {
+    margin-top: -5px;
+}
+
+.fileUploadSize {
+    margin-right: 5px;
+}
+
+.ImageAB .uploadImage,
+.ImageAB .enterURL {
+    margin-left: 180px;
+}
+
+.imagePreviewWrap {
+    float: left;
+}
+
+.imageURLWrap input {
+    width: 100%;
+    border: 1px #e1e1e1 solid;
+    padding: 3px 5px;
+}
+
+.ImageAB .image-frame {
+    display: inline-block;
+    width: 150px;
+    height: 100px;
+    line-height: 100px;
+    margin-right: 20px;
+    background-color: #e1e1e1;
+    text-align: center;
+    overflow: hidden;
+    vertical-align: middle;
+}
+
+    .ImageAB .image-frame:empty:before {
+        content: "\f03e";
+        font-family: FontAwesome;
+        font-size: 64px;
+        color: #666;
+    }
+
+    .ImageAB .image-frame img {
+        max-width: 100%;
+        min-height: 100px;
+    }
+
+.imageChoice,
+.imagePreview {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+    .imageChoice input {
+        min-width: inherit;
+        margin-right: 20px;
+    }
+
+.PageView .ItemAction button,
+.choiceActions button,
+.GroupButton button,
+button.btn-SubItemRow {
+    padding: 0;
+    background-color: transparent;
+    font-size: 0;
+    border: 0;
+    min-width: inherit;
+    margin-left: 6px;
+}
+
+    .PageView .ItemAction button:before,
+    .choiceActions button:before,
+    .GroupButton button:before,
+    button.btn-SubItemRow:before {
+        content: "\f055";
+        font-size: 24px;
+        color: #a7c23d;
+        font-family: FontAwesome;
+    }
+
+    .PageView .ItemAction .btn-SubItemRow:before,
+    .choiceActions button.btn-SubItemRow:before,
+    button.btn-SubGroupRow:before {
+        content: "\f057";
+        color: #f04e23
+    }
+
+    button.btn-SubItemRow:before {
+        content: "\f05c";
+        color: #f04e23
+    }
+
+    .PageView .ItemAction button.btn-AddDescription:before {
+        content: "\f15c";
+        margin-top: -3px;
+        display: inline-block;
+    }
+
+.Buttons.right {
+    text-align: right;
+}
+
+.tab-Content .Buttons.right {
+    padding-top: 10px;
+}
+
+.tab-logic .Buttons.right {
+    border-top: 1px #e9e9e9 solid;
+}
+
+.divDesignSetting .tab-logic .Buttons.right {
+    border-top: 0;
+}
+
+body .ItemInput .k-dropzone {
+    padding: 0 .8em;
+}
+
+body .ItemInput .k-upload-button {
+    margin: .8em 0
+}
+
+.MatrixTable .ListItemRow {
+    margin-top: 10px;
+}
+
+.rowChoices span,
+.columnChoices span {
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.rowChoices span,
+.columnChoices span {
+    margin-top: 12px;
+}
+
+.slider {
+    display: inline-block;
+    width: auto;
+    white-space: nowrap;
+    min-height: 80px;
+}
+
+    .slider .slider-center {
+        display: block;
+        padding-bottom: 8px;
+        font-weight: 500;
+        text-align: center;
+        padding-right: 80px;
+    }
+
+.SliderLabel {
+    display: table;
+    width: 100%;
+}
+
+    .SliderLabel > span {
+        display: table-cell;
+        width: 33.3%;
+        box-sizing: border-box;
+        padding-left: 19px;
+    }
+
+.slider .SliderLabel > .slider-center {
+    display: table-cell;
+}
+
+.SliderLabel > .slider-center {
+    padding: 0;
+}
+
+.SliderLabel > .slider-right {
+    padding-right: 25px;
+    text-align: right;
+    padding-left: 0;
+}
+
+.slider .k-slider-horizontal {
+    width: 550px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.slider .slider-value {
+    width: 40px;
+    margin: 0 4px;
+    padding: 4px 6px;
+}
+
+.Slider .ListItemRow .ItemInput input[type="text"] {
+    width: 50%;
+}
+
+.slider-helpper {
+    display: inline-block;
+}
+
+label.switch input[type=checkbox] {
+    margin-right: 8px;
+}
+
+.q-Options fieldset {
+    margin: 0;
+    padding: 10px;
+    border: 0;
+    border-bottom: 1px solid #f4f5f5;
+    background-color: #fff;
+}
+
+    .q-Options fieldset > .block {
+        padding: 10px 0 10px 27px;
+    }
+
+        .q-Options fieldset > .block .ItemRow {
+            padding-bottom: 10px;
+        }
+
+.tab-Content fieldset .block .inner-block {
+    display: block;
+    padding-top: 15px
+}
+
+.tab-Content fieldset .block .hidden {
+    display: none;
+}
+
+.q-Options fieldset .noinline {
+    display: inline-block;
+    margin-bottom: 5px;
+    padding-right: 10px;
+}
+
+.q-Options fieldset .AnswerSetting {
+    display: inline-block;
+}
+
+.q-Options fieldset > .block label,
+.q-Options fieldset > .block .ItemRow > span {
+    font-weight: 700;
+    padding-right: 10px;
+}
+
+.q-Options fieldset > .block .ItemRow > span {
+    min-width: 100px;
+    display: inline-block;
+}
+
+fieldset.disabled {
+    opacity: .5;
+    pointer-events: none;
+    cursor: default;
+}
+
+.q-Options fieldset > .block > div > label {
+    font-weight: 600;
+}
+
+.q-Options fieldset > label.switch {
+    background-color: transparent;
+    padding: 0;
+    border-bottom: 0;
+}
+
+.s-expander .block {
+    display: none;
+}
+
+.expanded .block {
+    display: block;
+}
+
+.v_between input {
+    margin: 0 6px;
+    width: 66px;
+}
+
+.slider-range > span {
+    padding: 0 5px;
+}
+
+.block textarea.sm-input {
+    width: 100%;
+    margin-top: 8px;
+}
+
+.q-Options fieldset select.slChoiceType {
+    margin-left: 7px;
+}
+
+.adjust-slider-scale .editor-block,
+.adjust-rankingcore .editor-block {
+    display: inline-block;
+}
+
+    .adjust-slider-scale .editor-block .sm-input {
+        display: inline-block;
+    }
+
+.tab-Content .adjust-slider-scale .editor-block label,
+.tab-Content .adjust-rankingcore .editor-block label {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.tab-Content .adjust-slider-scale .editor-block:first-child label,
+.tab-Content .adjust-rankingcore .editor-block:first-child label {
+    padding-left: 0;
+}
+
+.tab-Content .adjust-slider-scale .editor-block input[type=number] {
+    width: 66px;
+}
+
+div.k-slider-horizontal .k-draghandle {
+    width: 16px;
+    height: 16px;
+    background: #8a8d90;
+    border: 0;
+    border-radius: 50%;
+}
+
+    div.k-slider-horizontal .k-draghandle.k-state-selected {
+        box-shadow: none;
+    }
+
+.slider .ui-label {
+    display: none;
+}
+
+div.k-slider .k-button span.k-icon,
+div.k-slider .k-button:hover span.k-icon {
+    margin-top: 7px;
+}
+
+div.k-slider .k-button span.k-i-arrow-w,
+div.k-slider .k-button:hover span.k-i-arrow-w {
+    background-position: -32px -106px;
+}
+
+div.k-slider .k-button span.k-i-arrow-e,
+div.k-slider .k-button:hover span.k-i-arrow-e {
+    background-position: -52px -106px;
+}
+
+.MatrixTextBox-Table tbody th,
+.MatrixDropDownMenus-Table tbody th {
+    width: 22%;
+    border-top: 1px #f5f5f5 solid;
+}
+
+    .MatrixTextBox-Table tbody th:first-child {
+        width: 30%;
+    }
+
+.MatrixTextBox-Table tbody td,
+.MatrixDropDownMenus-Table tbody td {
+    border-top: 1px #f5f5f5 solid;
+}
+
+.MatrixTextBox-Table td input {
+    width: 60px;
+}
+
+.q-Content .tb-form th,
+.q-Content .tb-form td {
+    text-align: center;
+}
+
+.q-Content .tb-form tbody th:first-child {
+    text-align: left;
+}
+
+.emojiButton:before {
+    content: "\f087";
+    font-family: FontAwesome;
+    font-size: 22px;
+    color: #999;
+    vertical-align: middle;
+}
+
+.widEmoji span:before {
+    font-family: FontAwesome;
+    font-size: 18px;
+}
+
+.emojiButton:hover:before,
+.SurveyPageReview .emojiButton:before {
+    color: #f04e23;
+}
+
+.emojiButton {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+
+.q-Content .emojiButton input {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.StarRating-Review .emoji-cell,
+.StarRating-Review .rating-Title {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.emoji-cell .emojiButton:before {
+    margin-right: 6px;
+}
+
+.SurveyPageReview .q-HeaderTitle label.q-Title {
+    border-bottom: 1px solid #E5E5E3;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.SurveyPageReview .q-Content .ItemRow:nth-child(even) {
+    background-color: #f5f5f5
+}
+
+.SurveyPageReview .ItemRow .ItemText,
+.SurveyPageReview .ItemRow .ItemInput {
+    padding: 8px 0;
+}
+
+.SurveyPageReview .ItemRow {
+    padding-left: 10px;
+}
+
+.SurveyPageReview .ListItemRow .ItemRow .ItemText {
+    display: table-cell;
+    width: 180px;
+    white-space: normal;
+    padding-right: 10px;
+}
+
+.SurveyPageReview .MatrixRatingScale .ListItemRow .ItemRow .ItemText,
+.SurveyPageReview .RankingQuestion .ListItemRow .ItemRow .ItemText {
+    width: 280px;
+}
+
+.SurveyPageReview .ListItemRow .ItemRow .ItemInput {
+    display: table-cell;
+    float: none;
+}
+
+.div-SurveyLogo {
+    padding: 10px;
+}
+
+.SurveyPageReview .slider {
+    min-height: inherit;
+}
+
+.listFiles {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    .listFiles li {
+        padding-bottom: 6px;
+    }
+
+li.ItemRowFileDescription img.ImageFile {
+    width: 400px;
+}
+
+span.file-name {
+    color: #37b400
+}
+
+span.file-size {
+    color: #c3c3c3;
+    font-size: 11px;
+}
+
+.q-Description label,
+.q-Description span {
+    vertical-align: top;
+}
+
+.q-Editor .DescriptionHeader {
+    font-weight: 500;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.q-Evaluation .FileUpload .ItemText {
+    padding-left: .8em;
+}
+
+.FileUpload .input-hint {
+    color: #4DB2EC;
+}
+
+.ListFiles {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    .ListFiles li {
+        padding: 6px 0;
+    }
+
+        .ListFiles li a {
+            color: #37b400;
+            max-width: 75%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: inline-block;
+        }
+
+.ListItemRow .MultipleChoices .ItemInput input[type="text"] {
+    width: 95%;
+}
+
+.MultipleChoices .responses-text {
+    display: inline-block;
+    margin: 5px 0;
+}
+
+.configStar .star-shape select {
+    width: auto;
+}
+
+.configStar .emoji {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-family: FontAwesome;
+    font-size: 18px;
+}
+
+.heart:before {
+    content: "\f004";
+}
+
+.star:before {
+    content: "\f005";
+}
+
+.smiley:before {
+    content: "\f118";
+}
+
+.thumb:before {
+    content: "\f087";
+}
+
+.widEmoji span.Red:before {
+    color: #f04e23
+}
+
+.widEmoji span.Blue:before {
+    color: #2196F3
+}
+
+.widEmoji span.Green:before {
+    color: #4CAF50
+}
+
+.widEmoji span.Yellow:before {
+    color: #FBC02D
+}
+
+.widEmoji span.Black:before {
+    color: #000
+}
+
+/*------------- QuestionBank ------------*/
+#QuestionBank_WrappAll {
+    min-height: 500px;
+}
+
+    #QuestionBank_WrappAll .left,
+    #QuestionBank_WrappAll .right {
+        display: inline-block;
+        width: 20%;
+        box-sizing: border-box;
+    }
+
+    #QuestionBank_WrappAll .left {
+        width: 80%;
+    }
+
+    #QuestionBank_WrappAll .zone_content .left {
+        width: 50%;
+    }
+
+    #QuestionBank_WrappAll .left > .zone_content {
+        padding: 15px 30px;
+        background-color: #f4f5f5;
+    }
+
+.zone_header {
+    padding: 20px 30px 15px;
+}
+
+    .zone_header > label {
+        font-size: 26px;
+        font-family: "Segoe UI Light", "Segoe UI", "Segoe", Helvetica, Arial, sans-serif;
+    }
+
+.Search_zone {
+    position: relative;
+}
+
+    .Search_zone .k-dropdown {
+        width: 15%;
+        box-sizing: border-box;
+        vertical-align: top;
+        float: left;
+    }
+
+        .Search_zone .k-dropdown .k-dropdown-wrap {
+            border-radius: 0;
+            border-color: #d0d2d3;
+        }
+
+            .Search_zone .k-dropdown .k-dropdown-wrap .k-input {
+                height: 43px;
+                line-height: 40px;
+                text-indent: 15px;
+            }
+
+            .Search_zone .k-dropdown .k-dropdown-wrap .k-select {
+                line-height: 40px;
+                margin-right: 10px;
+            }
+
+    .Search_zone .ddl-Types {
+        border: 1px solid #d0d2d3;
+        border-left: 0;
+        display: inline-block;
+        background-color: #fff;
+        height: 45px;
+        line-height: 40px;
+        padding: 0 15px;
+        position: relative;
+        width: 23%;
+        box-sizing: border-box;
+        text-align: right;
+        vertical-align: top;
+        white-space: nowrap;
+        float: left;
+    }
+
+        .Search_zone .ddl-Types .sp-ddlHeader {
+            float: left;
+        }
+
+    .Search_zone .ddl-popup {
+        top: 45px;
+        line-height: normal;
+        white-space: normal;
+    }
+
+    .Search_zone .ddl-Types .btn-ddlExpander {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        min-width: inherit;
+        background: url("/_layouts/15/VuThao.Kendo/Default/sprite.png") no-repeat 0 -32px;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    .Search_zone #txtSearchKey {
+        height: 45px;
+        box-sizing: border-box;
+        line-height: 40px;
+        width: 62%;
+        border-color: #d0d2d3;
+        border-left: 0;
+        text-indent: 10px;
+    }
+
+    .Search_zone .sp-Search {
+        position: absolute;
+        right: 12px;
+        top: 10px;
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background: url("/Assets/images/sprite2.png") no-repeat -186px -20px;
+        font-size: 0;
+        cursor: pointer;
+    }
+
+.Result_zone .question-row {
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 10px 20px 10px 38px;
+}
+
+    .Result_zone .question-row:hover {
+        border: 1px #f04e23 solid
+    }
+
+        .Result_zone .question-row:hover .HiddenButtons {
+            background-color: transparent;
+        }
+
+.Result_zone .HiddenButtons {
+    text-align: left;
+}
+
+    .Result_zone .HiddenButtons button,
+    .ListPreviewTitleQuestion .HiddenButtons button {
+        min-width: inherit;
+        padding: 0;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        border: 0;
+        background: url("/Assets/images/sprite2.png") no-repeat -210px -24px;
+        margin: 16px 0 0 12px;
+        font-size: 0;
+    }
+
+        .Result_zone .HiddenButtons button:focus {
+            outline: none;
+        }
+
+.ListPreviewTitleQuestion .HiddenButtons button {
+    margin: 15px 6px 0 0;
+}
+
+.Result_zone .added .HiddenButtons button {
+    background-position: -230px -24px;
+}
+
+.Result_zone .added:hover .HiddenButtons button {
+    background-position: -210px -24px;
+}
+
+.ListPreviewTitleQuestion .HiddenButtons button.btn-Remove {
+    background-position: -177px 0;
+}
+
+.Result_zone .added {
+    background-color: #edeeee;
+    border: 1px #dcdddd solid;
+}
+
+    .Result_zone .added .HiddenButtons {
+        display: block;
+    }
+
+#QuestionBank_WrappAll .right {
+    float: right;
+    padding: 0 20px;
+}
+
+#QuestionBank_WrappAll .zone_content .right {
+    width: 50%;
+    padding-right: 0;
+}
+
+.right .zone_footer {
+    padding: 12px 0 0;
+    border: 0;
+    border-top: 1px #e5e5e5 solid;
+}
+
+    .right .zone_footer button {
+        background-color: #f04e23;
+        color: #fff;
+        padding: 12px 20px;
+        text-align: center;
+        border: 0;
+        width: 100%;
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+.ListPreviewTitleQuestion .question-row {
+    background-color: #f4f5f5;
+}
+
+.ListPreviewTitleQuestion .QuestionTitle {
+    margin-bottom: 5px;
+}
+
+/*------------- SurveyPageReport ------------*/
+.SingleSurveyPageReport {
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    color: #2a3342;
+    margin-bottom: 25px;
+}
+
+    .SingleSurveyPageReport > .page-title {
+        display: block;
+        background-color: #b5b9bc;
+        color: #fff;
+        padding: 10px 20px;
+        cursor: pointer;
+        font-size: 16px;
+        min-height: 21px;
+        position: relative;
+    }
+
+.summaryQuestionList {
+    padding: 25px;
+}
+
+.questionReport {
+    padding: 0;
+    margin: 20px 0 0;
+    border: 1px #e1e1e1 solid;
+    border-radius: 0
+}
+
+.summaryQuestionList > .questionReport:first-child {
+    margin-top: 0;
+}
+
+.questionReport:hover {
+    border-color: #ddd;
+}
+
+.questionTopMenu {
+    padding: 7px 12px;
+    background-color: #E5E5E3
+}
+
+.questionNumber {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    text-shadow: 0 1px 0 #FFF;
+}
+
+.questionButtons {
+    float: right;
+}
+
+    .questionButtons > span {
+        cursor: pointer;
+    }
+
+        .questionButtons > span:before {
+            content: "";
+            display: inline-block;
+            width: 14px;
+            height: 12px;
+            vertical-align: middle;
+            background: url("/Assets/images/sprite2.png") no-repeat -73px -357px;
+            margin-right: 8px;
+        }
+
+        .questionButtons > span.btn-Print:before {
+            background-position: -73px -372px;
+        }
+
+        .questionButtons > span.btn-Print {
+            margin-left: 20px;
+        }
+
+.question-generalInfo {
+    padding: 15px;
+    text-align: center;
+}
+
+.question-ReportInfo {
+    padding: 0 25px 15px;
+}
+
+.groupParent {
+    display: inline-block;
+}
+
+h1.questionTitle {
+    font-size: 18px;
+    margin-bottom: 12px;
+    font-weight: 400;
+    color: #ee5744;
+}
+
+.subHeader > div {
+    display: inline-block;
+    font-weight: 600;
+    color: #999;
+}
+
+.ReportGrid table.k-selectable {
+    border: 0;
+    border-radius: 0;
+}
+
+.ReportGrid th.k-header:first-child,
+.ReportGrid th.k-header:last-child {
+    border-radius: 0;
+}
+
+.ReportGrid td span {
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+span.CellGeneralInfo {
+    width: 60px;
+}
+
+    span.CellGeneralInfo > span {
+        display: block;
+        text-align: right;
+    }
+
+        span.CellGeneralInfo > span.Count {
+            padding: 4px 0 0;
+            text-align: right;
+            margin-right: 0;
+        }
+
+.ReportGrid td .Percent {
+    width: 60px;
+}
+
+.btn-ViewResponse {
+    width: 18px;
+    height: 16px;
+    font-size: 0;
+    cursor: pointer;
+    background: url("/PublishingImages/eoffices/icon.png") no-repeat center -426px;
+}
+
+.popup-noCloseOutter {
+    min-width: 780px;
+}
+
+h1.CellTitle {
+    font-size: 24px;
+    color: #ee5744;
+    margin-bottom: 15px;
+}
+
+.Popup-Content .questionAnwered {
+    margin: 0px 0 15px
+}
+
+.lbPercent,
+.questionSkipped {
+    padding-left: 30px;
+}
+
+.subHeader div span {
+    color: #ee5744
+}
+
+.subHeader .lbQuestionAnswered,
+.subHeader .lbquestionSkipped,
+.subHeader .lbPercent {
+    color: #999
+}
+
+.ChartInfo {
+    text-align: center;
+    padding: 20px 0;
+}
+
+    .ChartInfo ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+        .ChartInfo ul li {
+            display: inline-block;
+            vertical-align: top;
+            margin: 0 10px 10px;
+        }
+
+            .ChartInfo ul li span {
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+    .ChartInfo .ColorChart {
+        width: 16px;
+        height: 16px;
+        font-size: 0;
+        margin-right: 8px;
+        border-radius: 2px;
+    }
+
+a.linkOtherComment {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 0 25px 0 10px;
+    color: #ee5744;
+    background: url("/PublishingImages/eoffices/icon.png") no-repeat right -426px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+    a.linkOtherComment:hover {
+        color: #f04e23
+    }
+
+.ReportButton {
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    z-index: 72;
+    background-color: #fff;
+}
+
+.ms-dlgContent .ReportButton {
+    right: 34px;
+    top: 80px;
+}
+
+.ms-dlgContent .btn-Export {
+    min-width: 75px;
+}
+
+.ReportButton .btn-FocusZoom,
+.ReportButton .btn-ZoomIn,
+.ReportButton .btn-ZoomOut {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    font-size: 0;
+    cursor: pointer;
+    background: url("/Assets/images/sprite2.png") no-repeat -230px -105px;
+}
+
+.ReportButton .btn-ZoomOut {
+    background-position: -230px -133px;
+    margin-left: 10px;
+}
+
+.ReportButton .Zoomed {
+    opacity: 1;
+}
+
+.ReportButton .btn-FocusZoom {
+    display: none;
+}
+
+.ReportButton .hidden {
+    display: none;
+}
+
+.ReportButton .disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+
+/* animation */
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0px;
+        opacity: 1
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -100px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+/*------------ ReportSLADepartment --------------------*/
+.ReportSLADepartment .grid-form {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ReportSLADepartment .Form-ds {
+    overflow: visible !important;
+    height: auto !important;
+    border: 0;
+    padding: 0 !important;
+}
+
+.TitleReport {
+    text-align: center;
+    color: #00529c;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+div#workflowEdit > ul.tabs {
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.ReportSLADepartment .div-input {
+    width: 25%;
+    padding: 0 0 15px 8px;
+}
+.ContentBody {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.Content-left{
+    width: 65%;
+}
+.Content-right {
+    width: 33%;
+}
+.ReportSLADepartment .div-input > label {
+    display: inline-block;
+    margin-bottom: 7px;
+}
+
+    .ReportSLADepartment .div-input > span.k-widget {
+        width: 100%;
+    }
+
+.ReportSLADepartment .total {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.ReportSLADepartment .nav-bar .form-nav {
+    padding: 15px 15px 5px;
+    background: #FBFBFB;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+div#workflowEdit > ul.tabs li a:hover {
+    color: #00529c;
+}
+
+div#workflowEdit > ul.tabs li a {
+    font-size: 14px;
+    background: none;
+    text-decoration: none;
+    color: #8b8b8b;
+}
+
+    div#workflowEdit > ul.tabs li a label {
+        cursor: pointer;
+    }
+
+div#workflowEdit > ul.tabs li.work a {
+    background: none;
+    text-decoration: none;
+}
+
+div#workflowEdit ul.tabs li.active a {
+    border-bottom: 3px solid #00529c;
+    border-radius: 2px;
+    padding: 5px 2px 5px;
+    margin-left: 1px;
+    color: #00529c;
+}
+
+div#workflowEdit > ul.tabs li.active a:after {
+    content: "";
+}
+
+.div-input span.k-widget.k-datepicker.k-header.k-input {
+    background: none;
+    padding: 0;
+}
+
+span.k-icon.k-i-file-excel.btnXuatExcel.k-i-excel {
+    background: url(/PublishingImages/eoffices/btn.png);
+    background-position: 0 -2174px;
+    padding: 0 5px 4px 0;
+    background-repeat: no-repeat;
+    opacity: 0.85;
+}
+
+a.k-button.k-button-icontext.btnXuatExcel.k-grid-excel {
+    color: #303641;
+    font-size: 13px;
+}
+
+.k-grid td.td_Status {
+    text-overflow: inherit;
+}

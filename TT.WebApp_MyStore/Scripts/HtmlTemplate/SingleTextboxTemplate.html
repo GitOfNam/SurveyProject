@@ -1,0 +1,61 @@
+﻿<script id="SingleTextboxTemplate" type="text/x-jQuery-tmpl">
+    {{each(a,art) data}}
+    <div class="SurveyTemp" id="${ID}">
+        <div class="ShowItem">
+
+        </div>
+        <div class="EditItem">
+            <div class="divCtrlName">
+                <span class="CtrlName">Sigle Textbox</span>
+            </div>
+            <div class="Control-Servey">
+                <div class="v_tab">
+                    <div class="animate-bottom">
+                        <input type="button" class="v_tablinks active" onclick="openMenu(event, 'Option1_${ID}')" value="Chỉnh sửa" />
+                        <input type="button" class="v_tablinks" onclick="openMenu(event, 'Option2_${ID}')" value="Thiết lập" />
+                        <input type="button" class="v_tablinks" onclick="openMenu(event, 'Option3_${ID}')" value="Sao chép" />
+                    </div>
+                </div>
+                <div id="Option1_${ID}" class="v_tabcontent animate-bottom">
+                    <div class='ItemTextTitle Text'>
+                        <!--<input id='txtTitle_${ID}' class="form-control EditNow"  value="Câu ${Index}" />-->
+                        <span id='spnTitle_${ID}' style="border: none; font-weight: 600; font-family: initial;">Câu ${Index}</span>
+                    </div>
+                    <div class='ItemInputAnswer Input'>
+                        <div class='ItemControl'>
+                            <input id='txtTitle_${ID}' class="form-control EditNow" placeholder="Nhập tiêu đề" />
+                            <!--<span id='spnAnswer_${ID}'></span>-->
+                        </div>
+                    </div>
+                    <div class='ItemButton'>
+                        <input type="button" id='btnSave_${ID}' class="btn btnSave" value="Lưu" style="width: auto;" />
+                        <input type="button" id='btnCancle_${ID}' class="btn btnCancle" value="Hủy" style="width: auto;" />
+                    </div>
+                </div>
+
+                <div id="Option2_${ID}" class="v_tabcontent animate-bottom" style="display: none;min-height: 150px;">
+                    <div class="ConfigItemSurvey" id="Config_${ID}">
+                        <div class="ItemConfig">
+                            <input id="ckRequired_${ID}" type="checkbox" /> <span>Bắt buộc nhập câu trả lời</span>
+                        </div>
+                        <div class="ItemConfig">
+                            <input id="ckOnlyOneTime_${ID}" type="checkbox" /> <span>Không cho phép đánh giá lại</span>
+                        </div>
+                        <div class="ItemConfig">
+                            <input id="ckMultiLineText_${ID}" type="checkbox" /> <span>Cho phép nhập nhiều dòng</span>
+                        </div>
+                        <div class="ItemConfig">
+                            <input id="ckAcceptResultFomart_${ID}" type="checkbox" /> <span>Định dạng câu trả lời hợp lệ</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Option3_${ID}" class="v_tabcontent animate-bottom" style="display: none;">
+                    <h3>Test</h3>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</script>

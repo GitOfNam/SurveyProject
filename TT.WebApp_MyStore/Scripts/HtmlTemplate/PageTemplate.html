@@ -1,0 +1,18 @@
+﻿<script id="PageTemplate" type="text/x-jQuery-tmpl">
+    {{each(a,art) data}}
+    <div class="CssPage Page_${NumPage}">
+        <div class="PageNumber">
+            <span class="PageName">Trang ${NumPage}</span>
+        </div>
+        <div class="ContentPage" id="Content_Page_${NumPage}">
+
+        </div>
+        <div class="NewQuestion">
+            <input type="button" class="btnAdd" onclick="btnAdd(event,'Content_Page_${NumPage}',${NumPage})" value="Thêm mới">
+        </div>
+    </div>
+    <div class="PlaceNewPage">
+
+    </div>
+    {{/each}}
+</script>

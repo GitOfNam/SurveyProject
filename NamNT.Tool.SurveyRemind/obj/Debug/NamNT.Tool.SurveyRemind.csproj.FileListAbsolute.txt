@@ -1,0 +1,7 @@
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\NamNT.Tool.SurveyRemind\obj\Debug\NamNT.Tool.SurveyRemind.csproj.CoreCompileInputs.cache
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\NamNT.Tool.SurveyRemind\bin\Debug\NamNT.Tool.SurveyRemind.exe.config
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\NamNT.Tool.SurveyRemind\bin\Debug\NamNT.Tool.SurveyRemind.exe
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\NamNT.Tool.SurveyRemind\bin\Debug\NamNT.Tool.SurveyRemind.pdb
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\NamNT.Tool.SurveyRemind\obj\Debug\NamNT.Tool.SurveyRemind.exe
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\NamNT.Tool.SurveyRemind\obj\Debug\NamNT.Tool.SurveyRemind.pdb
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\NamNT.Tool.SurveyRemind\obj\Debug\NamNT.Tool.SurveyRemind.csprojAssemblyReference.cache

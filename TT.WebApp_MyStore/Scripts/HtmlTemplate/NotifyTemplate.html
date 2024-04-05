@@ -1,0 +1,17 @@
+﻿<script id="ListNotifyTemplate" type="text/x-jQuery-tmpl">
+    {{each(a,art) data}}
+    <a href="${LinkUrl}" id="Notify-${ID}" class="iq-sub-card">
+        <div class="d-flex align-items-center">
+            <!--<img class="p-1 avatar-40 rounded-pill bg-soft-primary" src="../../assets/images/shapes/01.png" alt="">-->
+            <i class="fas fa-envelope-square"></i>
+            <div class="ms-3 w-100">
+                <h6 class="mb-0 ">${Title}</h6>
+                <div class="d-flex justify-content-between align-items-center">
+                    <small class="float-end font-size-12">${strTime}</small>
+                </div>
+            </div>
+        </div>
+    </a>
+    {{/each}}
+</script>
+

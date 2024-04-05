@@ -1,0 +1,25 @@
+﻿<script id="SwiperCardTemplate" type="text/x-jQuery-tmpl">
+    {{each(a,art) data}}
+    <div class="item">
+        <div class="div-img">
+            <img src="" class="avatar" />
+        </div>
+        <div class="content">
+            <h3>
+                <a href="" title="${Title}">${Title}</a>
+            </h3>
+            <div class="info_content">
+                <ul>
+                    <li>
+                        <a class="content_chap" href="" title="${ChapterNumber}">${ChapterNumber}</a>
+                        <span class="content_time"><i class="fa fa-clock-o"></i>3 giờ trước</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="info_description">
+                <a class="" href="" title="${Description}">${Description}</a>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</script>

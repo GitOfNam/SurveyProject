@@ -1,0 +1,32 @@
+﻿<script id="MenuLeftTemplate" type="text/x-jQuery-tmpl">
+    {{each(a,art) data}}
+    {{if Items.length > 0}}
+    <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="collapse" id="ddlMenu-${ID}" href="#sidebar-${ID}" role="button" aria-expanded="false" aria-controls="sidebar-${ID}">
+            <i class="icon ${Icon}">
+            </i>
+            <span class="item-name">${Title}</span>
+            <i class="right-icon fas fa-angle-right"></i>
+        </a>
+        <ul class="sub-nav collapse" id="sidebar-${art.ID}" data-bs-parent="#sidebar-menu">
+            {{each(a1,art1) Items}}
+            <li class="nav-item">
+                <a class="nav-link" id="MenuId-${art1.ID}" href="${art1.Url}">
+                    <i class="icon ${Icon}"></i>
+                    <i class="sidenav-mini-icon ${Icon}"></i>
+                    <span class="item-name">${Title}</span>
+                </a>
+            </li>
+            {{/each}}
+        </ul>
+    </li>
+    {{else}}
+    <li class="nav-item">
+        <a class="nav-link" id="MenuId-${art.ID}" aria-current="page" href="${Url}">
+            <i class="${Icon}"></i>
+            <span class="item-name">${Title}</span>
+        </a>
+    </li>
+    {{/if}}
+    {{/each}}
+</script>

@@ -1,0 +1,124 @@
+﻿<script id="SingleTextboxTemplate_ToDo" type="text/x-jQuery-tmpl">
+    {{each(a,art) data}}
+    <div class="SurveyTemp" style=" margin: 10px;" id="${ID}">
+        <div class="ShowItem">
+
+        </div>
+    </div>
+    {{/each}}
+</script>
+<script id="PageTemplateToDo" type="text/x-jQuery-tmpl">
+    {{each(a,art) data}}
+    <div class="CssPage Page_${Index}" style="display:none">
+        <div class="PageNumber">
+            <span class="PageName">${Title}</span>
+        </div>
+        <div class="ContentPage" id="Content_Page_${Index}">
+
+        </div>
+    </div>
+    <div class="PlaceNewPage">
+
+    </div>
+    {{/each}}
+</script>
+<script id="PageTemplateReview" type="text/x-jQuery-tmpl">
+    {{each(a,art) data}}
+    <div class="CssPage Page_${Index}">
+        <div class="PageNumber">
+            <span class="PageName">${Title}</span>
+        </div>
+        <div class="ContentPage" id="Content_Page_${Index}">
+
+        </div>
+    </div>
+    <div class="PlaceNewPage">
+
+    </div>
+    {{/each}}
+</script>
+
+<script id="Question_SingleTextbox_Template_ToDo" type="text/x-jQuery-tmpl">
+    {{each(a,art) data}}
+    <div class="ActivedQuestion">
+        <div class="question-rowContent">
+            <div class="QuestionTitle">
+                <span class="type-icon SingleTextbox">${Index}</span>
+                <label class="q-Number-Title">${Index}. </label>
+                <label class="q-Title">${Title}</label>
+                {{if Required == true}}<label> (*)</label>{{/if}}
+            </div>
+            <div class="q-Preview SingleLineTextBox" style=" padding: 10px;">
+                <div class="msgError" id="warningAlert_${ID}"></div>
+                <div class="q-Content">
+                    {{if Options.AllowMultipleLine == false}} <input type="text" onchange="validateFormat('${ID}', '${ Options.ValidateAnswer }')" id="txtValue_${ID}" class="q-SingleTextBox form-control q-Num-${ID}" placeholder=" Nhập câu trả lời">
+                    {{else}} <textarea class="q-SingleTextBox form-control q-Num-${ID}" onchange="validateFormat('${ID}', '${ Options.ValidateAnswer }')" placeholder=" Nhập câu trả lời" style="height: 65px;" id="txtValue_${ID}" cols="30" rows="10"></textarea>
+                    {{/if}}
+
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</script>
+
+
+<script id="Question_SingleTextbox_Template_Review" type="text/x-jQuery-tmpl">
+    {{each(a,art) data}}
+    <div class="ActivedQuestion">
+        <div class="question-rowContent">
+            <div class="QuestionTitle">
+                <span class="type-icon SingleTextbox">${Index}</span>
+                <label class="q-Number-Title">${Index}. </label>
+                <label class="q-Title">${Title}</label>
+                {{if Required == true}}<label> (*)</label>{{/if}}
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</script>
+
+<script id="Question_MultipleTextboxes_Template_ToDo" type="text/x-jQuery-tmpl">
+    {{each(a,art) data}}
+    <div class="ActivedQuestion">
+        <div class="HiddenButtons">
+            <input type="button" class="btn btn-Edit" onclick="ShowEdit(event,'${ID}')" value="Sửa">
+        </div>
+        <div class="question-rowContent">
+            <div class="QuestionTitle">
+                <span class="type-icon MultipleTextboxes">${Index}</span>
+                <label class="q-Number-Title">${Index}. </label>
+                <label class="q-Title">${Title}</label>
+                {{if Required == true}}<label> (*)</label>{{/if}}
+            </div>
+            <!--<div class="q-Preview MultipleTextboxes">
+                <div class="warning hide"></div>
+                <div class="q-Content">
+                    {{if Options.AllowMultipleLine == false}} <input type="text" id="txtValue_${ID}" class="q-SingleTextBox form-control q-Num-${ID}" placeholder=" Nhập câu trả lời">
+                    {{else}} <textarea class="q-SingleTextBox form-control q-Num-${ID}" placeholder=" Nhập câu trả lời" style="height: 65px;" id="txtValue_${ID}" cols="30" rows="10"></textarea>
+                    {{/if}}
+
+                </div>
+            </div>-->
+        </div>
+        <div class="QuestionSetting_${ID}">
+            <div class="q-Editor MultipleTextboxes isTemp">
+                <div class="q-Content answerSettingDateTime">
+                    <div class="ListItemRow" style=" background-color: transparent;">
+                        {{each(b,brt) Value.MultipleTextboxes}}
+                        <div class="ItemRow MultipleTextboxes">
+                            <div class="ItemText"> <label class="q-HeaderRow" style="color: black" id="lbTitle_${brt.ID}">${brt.Title} </label> </div>
+                            {{if Options.AllowMultipleLine == false}} <input type="text" id="txtValue_${brt.ID}" class="q-SingleTextBox form-control q-Num-${brt.ID}" placeholder=" Nhập câu trả lời">
+                            {{else}} <textarea class="q-SingleTextBox form-control q-Num-${brt.ID}" placeholder=" Nhập câu trả lời" style="height: 65px;" id="txtValue_${brt.ID}" cols="30" rows="10"></textarea>
+                            {{/if}}
+                            <!--<div class="ItemInput"> <input type="text" id='txtValue_${brt.ID}' name="itemTitle" placeholder="Nhập câu trả lời"> </div>-->
+                        </div>
+                        {{/each}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {{/each}}
+</script>
+

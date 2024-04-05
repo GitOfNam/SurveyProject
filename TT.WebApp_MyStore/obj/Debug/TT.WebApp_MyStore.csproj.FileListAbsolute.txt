@@ -1,0 +1,316 @@
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\TT.WebApp_MyStore.dll.config
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\TT.WebApp_MyStore.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\TT.WebApp_MyStore.pdb
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\csc.exe
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\csc.exe.config
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\csc.rsp
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\csi.exe
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\csi.exe.config
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\csi.rsp
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.Managed.Core.targets
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.AppContext.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Collections.Immutable.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Console.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Globalization.Calendars.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.IO.Compression.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.IO.FileSystem.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Net.Http.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Net.Sockets.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Reflection.Metadata.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.ValueTuple.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Xml.XmlDocument.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Xml.XPath.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\vbc.exe
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\vbc.exe.config
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\vbc.rsp
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\VBCSCompiler.exe
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\VBCSCompiler.exe.config
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Antlr3.Runtime.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\EntityFramework.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\EntityFramework.SqlServer.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Microsoft.Web.Infrastructure.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Newtonsoft.Json.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Net.Http.Formatting.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Helpers.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Http.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Http.WebHost.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Mvc.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Optimization.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Razor.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.WebPages.Deployment.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.WebPages.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.WebPages.Razor.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\WebGrease.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\EntityFramework.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\EntityFramework.SqlServer.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Newtonsoft.Json.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Net.Http.Formatting.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Helpers.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Http.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Http.WebHost.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Mvc.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Optimization.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Razor.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.WebPages.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.WebPages.Deployment.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.WebPages.Razor.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Antlr3.Runtime.pdb
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\obj\Debug\TT.WebApp_MyStore.csproj.AssemblyReference.cache
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\obj\Debug\TT.WebApp_MyStore.csproj.CoreCompileInputs.cache
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\obj\Debug\TT.WebApp_MyStore.csproj.CopyComplete
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\obj\Debug\TT.WebApp_MyStore.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\obj\Debug\TT.WebApp_MyStore.pdb
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\CsvHelper.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Microsoft.Bcl.AsyncInterfaces.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Microsoft.Bcl.HashCode.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Buffers.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Memory.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Numerics.Vectors.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Runtime.CompilerServices.Unsafe.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Threading.Tasks.Extensions.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\CsvHelper.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Microsoft.Bcl.AsyncInterfaces.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Microsoft.Bcl.HashCode.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Buffers.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Memory.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Numerics.Vectors.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Runtime.CompilerServices.Unsafe.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Threading.Tasks.Extensions.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\EPPlus.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\EPPlus.Interfaces.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\EPPlus.System.Drawing.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Microsoft.IO.RecyclableMemoryStream.dll
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\EPPlus.xml
+E:\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\obj\Debug\TT.WebApp_MyStore.csproj.CoreCompileInputs.cache
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\obj\Debug\TT.WebApp_MyStore.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\obj\Debug\TT.WebApp_MyStore.pdb
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\TT.WebApp_MyStore.dll.config
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\TT.WebApp_MyStore.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\TT.WebApp_MyStore.pdb
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\csc.exe
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\csc.exe.config
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\csc.rsp
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\csi.exe
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\csi.exe.config
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\csi.rsp
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.AppContext.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Console.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.IO.Compression.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Net.Http.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Net.Sockets.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.ValueTuple.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Xml.XPath.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\vbc.exe
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\vbc.exe.config
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\vbc.rsp
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\VBCSCompiler.exe
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Microsoft.Win32.Primitives.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\netstandard.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.AppContext.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Collections.Concurrent.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Collections.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Collections.NonGeneric.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Collections.Specialized.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.ComponentModel.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.ComponentModel.EventBasedAsync.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.ComponentModel.Primitives.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.ComponentModel.TypeConverter.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Console.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Data.Common.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Diagnostics.Contracts.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Diagnostics.Debug.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Diagnostics.FileVersionInfo.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Diagnostics.Process.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Diagnostics.StackTrace.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Diagnostics.TextWriterTraceListener.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Diagnostics.Tools.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Diagnostics.TraceSource.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Diagnostics.Tracing.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Drawing.Primitives.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Dynamic.Runtime.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Globalization.Calendars.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Globalization.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Globalization.Extensions.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.IO.Compression.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.IO.Compression.ZipFile.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.IO.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.IO.FileSystem.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.IO.FileSystem.DriveInfo.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.IO.FileSystem.Primitives.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.IO.FileSystem.Watcher.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.IO.IsolatedStorage.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.IO.MemoryMappedFiles.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.IO.Pipes.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.IO.UnmanagedMemoryStream.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Linq.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Linq.Expressions.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Linq.Parallel.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Linq.Queryable.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Net.Http.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Net.NameResolution.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Net.NetworkInformation.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Net.Ping.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Net.Primitives.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Net.Requests.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Net.Security.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Net.Sockets.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Net.WebHeaderCollection.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Net.WebSockets.Client.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Net.WebSockets.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.ObjectModel.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Reflection.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Reflection.Extensions.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Reflection.Primitives.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Resources.Reader.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Resources.ResourceManager.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Resources.Writer.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Runtime.CompilerServices.VisualC.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Runtime.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Runtime.Extensions.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Runtime.Handles.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Runtime.InteropServices.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Runtime.Numerics.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Runtime.Serialization.Formatters.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Runtime.Serialization.Json.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Runtime.Serialization.Primitives.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Runtime.Serialization.Xml.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Security.Claims.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Security.Cryptography.Algorithms.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Security.Cryptography.Csp.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Security.Cryptography.Encoding.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Security.Cryptography.Primitives.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Security.Cryptography.X509Certificates.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Security.Principal.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Security.SecureString.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Text.Encoding.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Text.Encoding.Extensions.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Text.RegularExpressions.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Threading.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Threading.Overlapped.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Threading.Tasks.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Threading.Tasks.Parallel.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Threading.Thread.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Threading.ThreadPool.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Threading.Timer.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.ValueTuple.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Xml.ReaderWriter.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Xml.XDocument.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Xml.XmlDocument.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Xml.XmlSerializer.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Xml.XPath.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Xml.XPath.XDocument.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Antlr3.Runtime.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\CsvHelper.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\EntityFramework.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\EntityFramework.SqlServer.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Microsoft.Bcl.HashCode.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Newtonsoft.Json.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Buffers.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Memory.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Net.Http.Formatting.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Numerics.Vectors.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Helpers.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Http.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Http.WebHost.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Mvc.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Optimization.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Razor.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.WebPages.Deployment.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.WebPages.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.WebPages.Razor.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\WebGrease.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\CsvHelper.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\EntityFramework.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\EntityFramework.SqlServer.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Microsoft.Bcl.HashCode.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Buffers.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Memory.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Numerics.Vectors.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Newtonsoft.Json.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Net.Http.Formatting.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Helpers.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Http.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Http.WebHost.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Mvc.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Optimization.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.Razor.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.WebPages.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.WebPages.Deployment.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\System.Web.WebPages.Razor.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Antlr3.Runtime.pdb
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\obj\Debug\TT.WebApp_MyStore.csproj.CopyComplete
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\obj\Debug\TT.WebApp_MyStore.csprojAssemblyReference.cache
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\EPPlus.dll
+C:\Users\HDs\Desktop\A Project KLTN\TT.WebApp_MyStore\TT.WebApp_MyStore\bin\EPPlus.xml
